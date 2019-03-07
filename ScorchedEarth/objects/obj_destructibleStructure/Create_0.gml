@@ -2,6 +2,7 @@
 
 // initialize non-customizable helper variables
 fireStrength = 0
+isCaptured = false
 
 // if structure is of any value, add structure and its resource value to game manager
 if resourceValue > 0

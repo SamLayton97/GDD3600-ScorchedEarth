@@ -8,8 +8,10 @@
         "3eca8539-8149-4d4e-a9b1-0ab1b5f8b957",
         "9eeb319c-56c3-402c-80ea-2ce674ea9ece",
         "46e6f12b-c51c-4578-98be-d3029ba480af",
+        "7ad2a810-e02e-4d53-88af-3012ddce8cbf",
         "189a969e-9714-4a60-a52a-873773661d57",
-        "701d520a-4082-4af7-96be-fc7bce4d3010"
+        "701d520a-4082-4af7-96be-fc7bce4d3010",
+        "b7336488-9474-4f09-a7eb-df571c3d4042"
     ],
     "filterType": "GMSprite",
     "folderName": "Farm Structures",

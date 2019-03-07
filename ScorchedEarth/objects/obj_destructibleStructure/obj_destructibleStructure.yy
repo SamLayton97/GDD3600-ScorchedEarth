@@ -159,6 +159,20 @@
             "varType": 5
         },
         {
+            "id": "e7e1fb78-a34f-4b20-a80b-3a08df3c30ac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "myCapturedSprite",
+            "varType": 5
+        },
+        {
             "id": "24fe7742-0bf5-4955-a732-d18801c86db9",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

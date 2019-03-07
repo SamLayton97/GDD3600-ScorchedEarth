@@ -9,3 +9,9 @@ ds_list_add(obj_gameManager.structures, id)
 
 // create list to store neighboring structures
 nearbyStructures = ds_list_create()
+
+// initialize fire animation variables
+fireAnimationLength = sprite_get_number(fireAnimation)
+subImageFrames = flameAnimationTime * (room_speed / fireAnimationLength)
+currSubImage = 0
+frameCounter = 0

@@ -53,6 +53,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d"
+        },
+        {
+            "id": "c622df91-eee2-4af9-a4f3-fd4211194f44",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d"
         }
     ],
     "maskSpriteId": "6d950197-1e88-41b4-afd0-7aed4ab2c191",
@@ -141,6 +151,34 @@
             "value": "True",
             "varName": "isFlammable",
             "varType": 3
+        },
+        {
+            "id": "d30d1117-3f2f-4f37-87a7-103d0fb28657",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_structureFire",
+            "varName": "fireAnimation",
+            "varType": 5
+        },
+        {
+            "id": "effe41cf-7a38-434b-a3e7-cd362e814bf9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "flameAnimationTime",
+            "varType": 0
         }
     ],
     "solid": false,

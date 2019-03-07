@@ -5,5 +5,5 @@ draw_self()
 // if structure is on fire, draw fire animation above self
 if fireStrength > 0
 {
-	draw_sprite(spr_structureFire, 0, x, y)
+	draw_sprite(fireAnimation, currSubImage, x, y)
 }

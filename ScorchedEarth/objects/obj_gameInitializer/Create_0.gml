@@ -8,5 +8,12 @@ enum InvasionPhase
 	postInvasion
 }
 
+// define enumeration of weapons / tools
+enum LeftPressWeapon
+{
+	molotov,
+	dynamite
+}
+
 // TEMP CODE: destroy initializer
 instance_destroy(id)

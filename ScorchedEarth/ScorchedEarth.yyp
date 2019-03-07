@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3d489471-ffb0-47b6-a3c2-f7912105bda8",
+            "Value": {
+                "id": "21162962-4e5e-4fa9-a3fd-3143e1351058",
+                "resourcePath": "fonts\\fnt_levelConditions\\fnt_levelConditions.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3eca8539-8149-4d4e-a9b1-0ab1b5f8b957",
             "Value": {
                 "id": "995d5272-7887-4aae-9c17-e817a240c1e2",
@@ -156,6 +164,14 @@
                 "id": "02e200ee-72bc-4cf4-9911-4605979a2e8a",
                 "resourcePath": "views\\4b78e47f-b65f-41fe-8e29-615c65f8f8a0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c33f0f2-8991-4fe3-8082-6b301dccbf69",
+            "Value": {
+                "id": "2338d043-9482-49c3-b0ed-a7d20c029f01",
+                "resourcePath": "sprites\\spr_smallButton\\spr_smallButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -300,6 +316,14 @@
                 "id": "0bc00226-1186-449d-ae93-b623690b9dfb",
                 "resourcePath": "views\\7dc915e0-94e5-4da6-b590-757aec7bf8ca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7f72219c-26a6-475e-aec0-03c673b42085",
+            "Value": {
+                "id": "7af74dee-280a-472a-9308-a6eec46c0ea9",
+                "resourcePath": "sprites\\spr_smallButtonHighlighted\\spr_smallButtonHighlighted.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "c79495ff-5e22-48a5-b103-47ab7478f2af",
+            "Value": {
+                "id": "8581fc59-d1fa-4e99-827e-011db3c641c7",
+                "resourcePath": "objects\\obj_fireSelectButton\\obj_fireSelectButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c808e63b-bf53-450c-a7c0-9560e8ee8b07",
             "Value": {
                 "id": "b51e3329-db45-4d57-b2c3-02917ee64ed0",
@@ -596,6 +628,14 @@
                 "id": "e7bef395-ceaf-4ccd-ab8e-91eceaa54a82",
                 "resourcePath": "views\\fc3d38c3-9122-4dbb-ada2-36d1de76078d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff24db74-dd98-46ea-8751-c5cb091d1d7e",
+            "Value": {
+                "id": "90cf059f-b152-4889-a74d-37277e62b2af",
+                "resourcePath": "fonts\\fnt_buttonsSmall\\fnt_buttonsSmall.yy",
+                "resourceType": "GMFont"
             }
         }
     ],

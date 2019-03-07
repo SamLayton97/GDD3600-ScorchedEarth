@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_UIBackPanel",
     "eventList": [
-        
+        {
+            "id": "a4cd0f18-8f72-4a57-8575-1521f510c058",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "508d81ce-edf3-4715-9d62-64999c4f23bc"
+        },
+        {
+            "id": "1043216b-93aa-4968-b266-c25bd2d9d34e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "508d81ce-edf3-4715-9d62-64999c4f23bc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +41,64 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "8c4d242d-1b9e-4495-8c35-cc918ce20226",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "fnt_levelConditions",
+            "varName": "myFont",
+            "varType": 5
+        },
+        {
+            "id": "c0c65eff-6df1-4b1a-ab0f-a68eb9bf7b87",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Fields",
+            "varName": "levelLocation",
+            "varType": 2
+        },
+        {
+            "id": "45139ef5-507b-4f2b-b494-cbd90d60da62",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0745",
+            "varName": "levelTime",
+            "varType": 2
+        },
+        {
+            "id": "11788bb3-af9e-4c98-baf3-9ce4a728254b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "22.06.19XX",
+            "varName": "levelDate",
+            "varType": 2
+        }
+    ],
     "solid": false,
     "spriteId": "69da2978-7972-4f9d-b81b-cc102ad0ed29",
     "visible": true

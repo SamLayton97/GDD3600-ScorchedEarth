@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "58f1ebaa-af11-45de-ac57-ad216b87c103",
+            "Value": {
+                "id": "4e845b38-dd2f-426f-91fb-3967059dabe0",
+                "resourcePath": "objects\\obj_infantry\\obj_infantry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d55ddf3-fd16-4ab6-b1a6-89aeb556aae4",
             "Value": {
                 "id": "0cfd6c6e-446f-4e34-a1d0-710186d65f88",
@@ -303,22 +311,6 @@
             }
         },
         {
-            "Key": "91f31f70-5c02-4ca5-9b3d-db5110c46b69",
-            "Value": {
-                "id": "0fc34dbc-a3f5-4824-8d24-b38b52e84cd8",
-                "resourcePath": "sprites\\spr_infantry\\spr_infantry.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "952ef84e-f4a1-4ac7-84ae-51b6b01cf8fe",
-            "Value": {
-                "id": "bcbc7e3b-e6f6-4b2b-be09-306bff008020",
-                "resourcePath": "sprites\\spr_mechanizedInfantry\\spr_mechanizedInfantry.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "97e146c9-fc1d-4f9d-b43c-5dbef81ccd90",
             "Value": {
                 "id": "e154c2d1-99d6-4da4-91a8-67e48fcd77ed",
@@ -364,6 +356,14 @@
                 "id": "5ff634aa-83bb-41dc-91eb-241884ed7e87",
                 "resourcePath": "objects\\obj_structureNameBox\\obj_structureNameBox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8090946-c9c7-4595-8b8e-043ea5da044f",
+            "Value": {
+                "id": "bab4903c-07df-4b74-893c-9ca2f114182d",
+                "resourcePath": "views\\a8090946-c9c7-4595-8b8e-043ea5da044f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -452,6 +452,30 @@
                 "id": "766f6a45-123a-4478-8322-fd382b1c697e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "daa95613-83d3-4173-af9e-794ed7b71894",
+            "Value": {
+                "id": "0b9978f0-68af-4639-a04f-09295dd28363",
+                "resourcePath": "sprites\\spr_infantry\\spr_infantry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e441f704-e644-41ae-875a-182218f14402",
+            "Value": {
+                "id": "6b5d17d5-8345-4609-9337-be4765eabb90",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ec639118-d840-4193-8c5f-46a9d868c9f9",
+            "Value": {
+                "id": "8e5e473f-133f-4e60-99b6-1bd5e0981db9",
+                "resourcePath": "sprites\\spr_mechanizedInfantry\\spr_mechanizedInfantry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

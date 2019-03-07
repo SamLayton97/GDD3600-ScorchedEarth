@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1f17dba3-f6e2-402c-a7db-11f6e347e5eb",
+            "Value": {
+                "id": "e1aed56d-c513-4251-9898-f89226c2832f",
+                "resourcePath": "objects\\obj_gameManager\\obj_gameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3eca8539-8149-4d4e-a9b1-0ab1b5f8b957",
             "Value": {
                 "id": "995d5272-7887-4aae-9c17-e817a240c1e2",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "7134eaef-8064-4f2d-8fa4-99af10f09648",
+            "Value": {
+                "id": "e9711733-a8dc-4edc-87ed-f8fc2a4c5588",
+                "resourcePath": "views\\7134eaef-8064-4f2d-8fa4-99af10f09648.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7b4c7a09-77e2-4a34-a8d1-a58b6b7e4cd3",
             "Value": {
                 "id": "e72e23e0-3d66-4d66-a01e-62f3caddf3d9",
@@ -131,6 +147,14 @@
             "Value": {
                 "id": "1762e851-685d-40cb-89c0-f872d0acedc7",
                 "resourcePath": "views\\86447254-3519-46ca-aeb8-19b0e0fdb433.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97e146c9-fc1d-4f9d-b43c-5dbef81ccd90",
+            "Value": {
+                "id": "e154c2d1-99d6-4da4-91a8-67e48fcd77ed",
+                "resourcePath": "views\\97e146c9-fc1d-4f9d-b43c-5dbef81ccd90.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -162,7 +186,7 @@
             "Key": "bc7df8d6-bc45-4f69-9d39-b8600b18fac6",
             "Value": {
                 "id": "e4392e5f-9288-4abc-bcdf-a51630e02fad",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_Farmland\\rm_Farmland.yy",
                 "resourceType": "GMRoom"
             }
         },

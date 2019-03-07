@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_destructibleStructure",
     "eventList": [
-        
+        {
+            "id": "ad0f2153-61b5-4520-9872-94521f9d1ecd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -47,7 +56,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "10",
             "varName": "resourceValue",
             "varType": 1
         },
@@ -80,6 +89,20 @@
             "varType": 5
         },
         {
+            "id": "24fe7742-0bf5-4955-a732-d18801c86db9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "isFlammable",
+            "varType": 3
+        },
+        {
             "id": "64f35425-8d3c-4c71-9cba-a56663f2d78b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -105,20 +128,6 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "isDestroyed",
-            "varType": 3
-        },
-        {
-            "id": "24fe7742-0bf5-4955-a732-d18801c86db9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "True",
-            "varName": "isFlammable",
             "varType": 3
         }
     ],

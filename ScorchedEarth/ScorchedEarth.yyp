@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "508d81ce-edf3-4715-9d62-64999c4f23bc",
+            "Value": {
+                "id": "fa260562-dfb2-4d19-a926-535b928e5f1d",
+                "resourcePath": "objects\\obj_UIBackPanel\\obj_UIBackPanel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "589565fe-0eba-4fc0-bd0d-846caabe1fe1",
             "Value": {
                 "id": "80401572-459b-4bed-939f-1ee777e42ee7",
@@ -139,6 +147,14 @@
             "Value": {
                 "id": "c3df2573-5d60-4893-a6b3-a6667faeca50",
                 "resourcePath": "sprites\\spr_grasslandHighlighted\\spr_grasslandHighlighted.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69da2978-7972-4f9d-b81b-cc102ad0ed29",
+            "Value": {
+                "id": "32fda362-82a2-4250-b70b-5a4c63368216",
+                "resourcePath": "sprites\\spr_UIBackPanel\\spr_UIBackPanel.yy",
                 "resourceType": "GMSprite"
             }
         },

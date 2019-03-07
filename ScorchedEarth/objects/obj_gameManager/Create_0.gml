@@ -3,6 +3,9 @@
 // initialize player's current AP
 currAP = startingAP
 
+// initialize state of level
+currPhase = InvasionPhase.preInvasion
+
 // initialize resource and score tracking variables
 resourcesDestroyed = 0
 totalResources = 0

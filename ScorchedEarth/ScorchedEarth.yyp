@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "230292e4-4c67-4222-abae-f31cce6f0bf9",
+            "Value": {
+                "id": "e0ff29b8-4228-4c36-897c-27d4ca8da2e5",
+                "resourcePath": "objects\\obj_invasionManager\\obj_invasionManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27bca6e0-adac-438f-8668-1dd67e49d5c8",
             "Value": {
                 "id": "512d36a8-cbff-4344-be47-860bc50a7ec4",
@@ -420,6 +428,14 @@
                 "id": "e4392e5f-9288-4abc-bcdf-a51630e02fad",
                 "resourcePath": "rooms\\rm_Farmland\\rm_Farmland.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bd3835b5-c98e-4610-8f0d-130c0802cfb5",
+            "Value": {
+                "id": "c38a5f9d-ba10-48c0-af31-035fe906633e",
+                "resourcePath": "objects\\obj_gameInitializer\\obj_gameInitializer.yy",
+                "resourceType": "GMObject"
             }
         },
         {

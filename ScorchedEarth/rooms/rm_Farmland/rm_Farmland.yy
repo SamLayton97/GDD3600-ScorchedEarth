@@ -57,7 +57,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "UpperUILayer",
+            "name": "MidUILayer",
             "id": "3e89f43a-8729-4622-81a6-bbc5188a7d93",
             "depth": 0,
             "grid_x": 32,

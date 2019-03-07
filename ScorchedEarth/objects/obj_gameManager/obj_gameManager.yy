@@ -109,7 +109,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "2",
-            "varName": "fireAPCost",
+            "varName": "fireCost",
             "varType": 1
         }
     ],

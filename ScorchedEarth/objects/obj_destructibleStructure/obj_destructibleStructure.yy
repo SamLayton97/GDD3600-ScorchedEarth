@@ -144,7 +144,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "spr_wheatHighlighted",
+            "value": "spr_grasslandHighlighted",
             "varName": "myHighlightedSprite",
             "varType": 5
         },

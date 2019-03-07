@@ -39,6 +39,14 @@
             "objectId": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d",
             "propertyId": "c43c0f19-dc56-47d5-9b83-f7e63815f192",
             "value": "spr_wheatHighlighted"
+        },
+        {
+            "id": "294b52bf-0504-4bcf-a1e5-13e44db3a4f7",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d",
+            "propertyId": "e7e1fb78-a34f-4b20-a80b-3a08df3c30ac",
+            "value": "spr_wheatCaptured"
         }
     ],
     "parentObjectId": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d",

@@ -1,11 +1,15 @@
 /// @description When object is destroyed
 
-// add resources to total number of resources destroyed and remove self from list of valuable structures
-with obj_gameManager
+// if structure had any resource value
+if resourceValue > 0
 {
-	resourcesDestroyed += other.resourceValue
-	structureIndex = ds_list_find_index(structures, other)
-	ds_list_delete(structures, structureIndex)
+	// add resources to total number of resources destroyed and remove self from list of valuable structures
+	with obj_gameManager
+	{
+		resourcesDestroyed += other.resourceValue
+		structureIndex = ds_list_find_index(structures, other)
+		ds_list_delete(structures, structureIndex)
+	}
 }
 
 // if structure was a building (resources >= 5), spawn rubble where structure was destroyed

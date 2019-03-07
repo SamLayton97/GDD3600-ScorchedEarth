@@ -4,6 +4,10 @@
 if obj_structureNameBox.structureToDisplay == id
 	obj_structureNameBox.structureToDisplay = noone
 
-// swap sprite back to normal sprite
-if sprite_index != mySprite
-	sprite_index = mySprite
+// if enemy hasn't captured structure
+if !isCaptured
+{
+	// swap sprite back to normal sprite
+	if sprite_index != mySprite
+		sprite_index = mySprite
+}

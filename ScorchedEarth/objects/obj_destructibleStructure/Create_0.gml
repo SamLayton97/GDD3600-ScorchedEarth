@@ -1,7 +1,8 @@
 /// @description Used for initialization
 
-// initialize fire value of structure
+// initialize non-customizable helper variables
 fireValue = 0
+isMousedOver = false
 
 // add structure and its resource value to game manager
 obj_gameManager.totalResources += resourceValue

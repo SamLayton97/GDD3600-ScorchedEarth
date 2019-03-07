@@ -1,8 +1,7 @@
 /// @description Used for initialization
 
 // initialize name to display and object's visibility
-nameToDisplay = "default"
-showName = false
+structureToDisplay = noone
 
 // initialize where to draw textbox sprite
 drawX = 0

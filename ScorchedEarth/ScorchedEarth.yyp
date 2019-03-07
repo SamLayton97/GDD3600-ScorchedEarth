@@ -71,11 +71,27 @@
             }
         },
         {
+            "Key": "3a1f29f6-341f-4754-944a-c1c9f56c15b7",
+            "Value": {
+                "id": "59c9cd3e-064a-4c42-83b9-ad73322972ef",
+                "resourcePath": "sprites\\spr_smallUIPanel\\spr_smallUIPanel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3eca8539-8149-4d4e-a9b1-0ab1b5f8b957",
             "Value": {
                 "id": "995d5272-7887-4aae-9c17-e817a240c1e2",
                 "resourcePath": "sprites\\spr_grassland\\spr_grassland.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "40b4c6e6-91d8-4b9d-bab7-b14b50800419",
+            "Value": {
+                "id": "a5c0f7f3-bd4a-4910-835c-9bc9e28a05e0",
+                "resourcePath": "objects\\obj_APCounter\\obj_APCounter.yy",
+                "resourceType": "GMObject"
             }
         },
         {

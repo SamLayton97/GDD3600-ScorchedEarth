@@ -5,5 +5,7 @@ framesToInvasion = room_speed * invasionPrepTime
 invasionCounter = 0
 
 // initialize enemy spawning variables
-firstEnemyX = 320
-enemySpawnSpacing = 64
+firstEnemyY = 320
+enemySpawnXSpacing = sprite_get_width(spr_infantry)
+enemySpawnYSpacing = 64
+enemySpriteWidth = sprite_get_width(spr_infantry)

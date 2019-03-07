@@ -13,11 +13,15 @@ if invasionCounter >= framesToInvasion and obj_gameManager.currPhase == Invasion
 		randomize()
 		var spawnValue = random_range(0, 1)
 		
+		// determine x and y position to spawn enemy
+		var spawnY = firstEnemyY + enemySpawnYSpacing * i
+		var spawnX =  0 - enemySpawnXSpacing / 2 - (enemySpawnYSpacing * abs(i - 3))
+		
 		// spawn enemy according to generated value
 		if spawnValue >= 1 - mechanizedSpawnChance
-			instance_create_layer(0, firstEnemyX + enemySpawnSpacing * i, "Enemies", obj_mechanizedInfantry)
+			instance_create_layer(spawnX, spawnY, "Enemies", obj_mechanizedInfantry)
 		else
-			instance_create_layer(0, firstEnemyX + enemySpawnSpacing * i, "Enemies", obj_infantry)
+			instance_create_layer(spawnX, spawnY, "Enemies", obj_infantry)
 	}
 }
 // otherwise, increment counter

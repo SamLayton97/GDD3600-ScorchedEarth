@@ -36,7 +36,8 @@ if fireStrength > 0
 			{
 				// set fire to structure (of fire strength one less than that of this structure)
 				var structure = ds_list_find_value(nearbyStructures, i)
-				structure.fireStrength = fireStrength - 1
+				if structure.isFlammable and structure.fireStrength == 0
+					structure.fireStrength = fireStrength - 1
 			}
 		}
 		

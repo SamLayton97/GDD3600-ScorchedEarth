@@ -21,21 +21,15 @@ if fireStrength > 0
 	// if fire spread counter exceeds max
 	if fireSpreadCounter >= framesToSpreadFire
 	{
-		// find destructible structures within fire propagation range
-		with(obj_destructibleStructure)
+		for (var i = 0; i < instance_number(obj_destructibleStructure); i++)
 		{
-			// if destructible structure isn't this structure and is within certain range, add it to list
-			if id != other.id and distance_to_point(other.x, other.y) <= obj_gameManager.fireSpreadRadius
-				ds_list_add(other.nearbyStructures, id)
-		}
-		
-		// if list of nearby structures isn't empty, set fire to each strucure within it
-		if !ds_list_empty(nearbyStructures)
-		{
-			for (var i=0; i <= ds_list_size(nearbyStructures); i++)
+			var structure = instance_find(obj_destructibleStructure, i)
+			
+			// if destructible structure isn't this structure and is within certain range
+			if (structure != id and 
+			distance_to_point(structure.x, structure.y) <= obj_gameManager.fireSpreadRadius)
 			{
-				// set fire to structure (of fire strength one less than that of this structure)
-				var structure = ds_list_find_value(nearbyStructures, i)
+				// set fire to it if structure isn't flammable or currently on fire
 				if structure.isFlammable and structure.fireStrength == 0
 					structure.fireStrength = fireStrength - 1
 			}

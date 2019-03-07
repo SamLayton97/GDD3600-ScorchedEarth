@@ -15,6 +15,8 @@ fireAnimationLength = sprite_get_number(fireAnimation)
 subImageFrames = flameAnimationTime * (room_speed / fireAnimationLength)
 currSubImage = 0
 fireFrameCounter = 0
+fireAnimWidth = sprite_get_width(spr_structureFire)
+fireAnimHeight = sprite_get_height(spr_structureFire)
 
 // initialize fire propagation variables
 framesToSpreadFire = room_speed * obj_gameManager.fireSpreadTime

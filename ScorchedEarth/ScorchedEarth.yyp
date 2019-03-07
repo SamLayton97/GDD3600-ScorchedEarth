@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "c808e63b-bf53-450c-a7c0-9560e8ee8b07",
+            "Value": {
+                "id": "b51e3329-db45-4d57-b2c3-02917ee64ed0",
+                "resourcePath": "objects\\obj_mechanizedInfantry\\obj_mechanizedInfantry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c9f29812-868c-4379-9896-fcdca85f8e90",
             "Value": {
                 "id": "6d9a3e0c-114d-4e86-9bcb-221e1fd5537f",

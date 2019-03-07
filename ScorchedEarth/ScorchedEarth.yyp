@@ -399,6 +399,22 @@
             }
         },
         {
+            "Key": "ad04e086-f1cc-4428-8043-45e1372b0346",
+            "Value": {
+                "id": "7217890a-54bc-4ab6-b9d2-c0a4f6c4e67c",
+                "resourcePath": "objects\\obj_invasionProgress\\obj_invasionProgress.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b445ca4b-712c-4f59-b3a1-a2a66b8c40db",
+            "Value": {
+                "id": "185ff64b-3725-4b9d-b43b-23be249b4f21",
+                "resourcePath": "sprites\\spr_wideUIPanel\\spr_wideUIPanel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7336488-9474-4f09-a7eb-df571c3d4042",
             "Value": {
                 "id": "55a426ab-dc5c-4bd6-9e96-ffd56dfc18c1",
@@ -492,6 +508,14 @@
                 "id": "766f6a45-123a-4478-8322-fd382b1c697e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d90fed79-1220-43fb-aad2-4b2bb913c70f",
+            "Value": {
+                "id": "2f5a4c9a-943e-4e08-97ac-e2d9f714f915",
+                "resourcePath": "fonts\\fnt_invasionProgress\\fnt_invasionProgress.yy",
+                "resourceType": "GMFont"
             }
         },
         {

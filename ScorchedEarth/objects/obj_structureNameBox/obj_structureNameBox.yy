@@ -15,16 +15,6 @@
             "m_owner": "a5a47a65-b184-40a3-a1a3-fda91f74af6f"
         },
         {
-            "id": "c95f1275-fab2-45bd-91d8-0da8fd9702fc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a5a47a65-b184-40a3-a1a3-fda91f74af6f"
-        },
-        {
             "id": "159daab9-d744-434f-8648-20b25da78a94",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -62,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "15",
             "varName": "xOffset",
             "varType": 0
         },
@@ -76,8 +66,36 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "-40",
             "varName": "yOffset",
+            "varType": 0
+        },
+        {
+            "id": "ac349cfb-24c6-4ed9-a406-14e790b87b6e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_structureNameBackground",
+            "varName": "textboxSprite",
+            "varType": 5
+        },
+        {
+            "id": "29d3f5b4-0d61-4649-a8da-464961fa9b1f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "textboxStretchOffset",
             "varType": 0
         }
     ],

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "122991ef-dbb4-44fc-91b0-dea65f939bd8",
+            "Value": {
+                "id": "b5e87c67-6431-4b48-9e2b-372b419738fd",
+                "resourcePath": "objects\\obj_grassland\\obj_grassland.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1700a26b-e09a-4770-96b4-291585373945",
             "Value": {
                 "id": "12538162-a645-4950-8d7c-932e41597c11",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "bc538cd7-9f7c-40be-abee-326e5e027b59",
                 "resourcePath": "views\\454373d3-ec9f-4002-84ee-583fce81dda9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "49a0684d-edf2-4a3c-8750-aebf5ef5b987",
+            "Value": {
+                "id": "13b9cc28-525e-4132-aca4-90185e943c40",
+                "resourcePath": "views\\49a0684d-edf2-4a3c-8750-aebf5ef5b987.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -115,6 +131,14 @@
             "Value": {
                 "id": "c3df2573-5d60-4893-a6b3-a6667faeca50",
                 "resourcePath": "sprites\\spr_grasslandHighlighted\\spr_grasslandHighlighted.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6d950197-1e88-41b4-afd0-7aed4ab2c191",
+            "Value": {
+                "id": "3dbb95a0-18ab-44c9-8408-49cba555a45b",
+                "resourcePath": "sprites\\spr_structureCollisionBox\\spr_structureCollisionBox.yy",
                 "resourceType": "GMSprite"
             }
         },

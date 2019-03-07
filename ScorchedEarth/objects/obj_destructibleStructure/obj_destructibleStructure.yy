@@ -101,37 +101,9 @@
             "value": "True",
             "varName": "isFlammable",
             "varType": 3
-        },
-        {
-            "id": "64f35425-8d3c-4c71-9cba-a56663f2d78b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "fireStrength",
-            "varType": 1
-        },
-        {
-            "id": "6915a4c2-9764-465d-af2a-8b1a00f95f5a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "isDestroyed",
-            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "3eca8539-8149-4d4e-a9b1-0ab1b5f8b957",
+    "spriteId": "6d950197-1e88-41b4-afd0-7aed4ab2c191",
     "visible": true
 }

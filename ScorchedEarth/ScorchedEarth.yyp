@@ -303,6 +303,22 @@
             }
         },
         {
+            "Key": "91f31f70-5c02-4ca5-9b3d-db5110c46b69",
+            "Value": {
+                "id": "0fc34dbc-a3f5-4824-8d24-b38b52e84cd8",
+                "resourcePath": "sprites\\spr_infantry\\spr_infantry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "952ef84e-f4a1-4ac7-84ae-51b6b01cf8fe",
+            "Value": {
+                "id": "bcbc7e3b-e6f6-4b2b-be09-306bff008020",
+                "resourcePath": "sprites\\spr_mechanizedInfantry\\spr_mechanizedInfantry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97e146c9-fc1d-4f9d-b43c-5dbef81ccd90",
             "Value": {
                 "id": "e154c2d1-99d6-4da4-91a8-67e48fcd77ed",
@@ -395,6 +411,14 @@
             "Value": {
                 "id": "30066fb9-f705-404f-9234-20f768526b7e",
                 "resourcePath": "views\\bda0ea61-9849-4239-8b2b-949a9d7896ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c34b61c6-e3ba-441d-adb8-b55a3e2a2be7",
+            "Value": {
+                "id": "bdea2ef4-b088-4f23-b396-8e989aea94ab",
+                "resourcePath": "views\\c34b61c6-e3ba-441d-adb8-b55a3e2a2be7.yy",
                 "resourceType": "GMFolder"
             }
         },

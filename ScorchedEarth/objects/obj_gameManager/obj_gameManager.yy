@@ -80,8 +80,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "64",
+            "value": "40",
             "varName": "fireSpreadRadius",
+            "varType": 0
+        },
+        {
+            "id": "183c4187-17b0-4d85-9c5a-8656e5b28822",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "fireSpreadTime",
             "varType": 0
         },
         {

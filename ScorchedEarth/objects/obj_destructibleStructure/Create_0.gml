@@ -14,4 +14,8 @@ nearbyStructures = ds_list_create()
 fireAnimationLength = sprite_get_number(fireAnimation)
 subImageFrames = flameAnimationTime * (room_speed / fireAnimationLength)
 currSubImage = 0
-frameCounter = 0
+fireFrameCounter = 0
+
+// initialize fire propagation variables
+framesToSpreadFire = room_speed * obj_gameManager.fireSpreadTime
+fireSpreadCounter = 0

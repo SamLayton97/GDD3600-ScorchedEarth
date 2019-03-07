@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "a519cf2d-27a8-439a-99ba-ca4679aa6f6e",
+            "Value": {
+                "id": "8c21390e-72a0-4b72-b538-be06a80066d7",
+                "resourcePath": "fonts\\fnt_APCounter\\fnt_APCounter.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a5494b69-8f65-4f1c-b6b0-7976e120fe8a",
             "Value": {
                 "id": "856c43f6-c4e3-463d-a8e0-b80d3b62db87",

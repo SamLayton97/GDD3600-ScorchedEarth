@@ -1,7 +1,8 @@
 /// @description Used for initialization
 
-// initialize player's current AP
+// initialize player's current AP and current left-press weapon
 currAP = startingAP
+currLeftPressWeapon = LeftPressWeapon.molotov
 
 // initialize state of level
 currPhase = InvasionPhase.preInvasion

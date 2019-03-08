@@ -6,13 +6,13 @@ if !disabled
 	// Inherit the parent event
 	event_inherited();
 	
-	// if final player AP hasn't been set, send evaluator final AP
-	if obj_evaluationManager.endPlayerAP == -1
-		obj_evaluationManager.endPlayerAP = obj_gameManager.currAP
+	// if final player AP hasn't been set, send GM final AP
+	if obj_gameManager.finalPlayerAP == -1
+		obj_gameManager.finalPlayerAP = obj_gameManager.currAP
 	
-	// if invasion progress percent hasn't been set, send evaluator invasion progress (at time of retreating)
-	if obj_evaluationManager.endInvasionProgressPercent == -1
-		obj_evaluationManager.endInvasionProgressPercent = 
+	// if invasion progress percent hasn't been set, send GM invasion progress (at time of retreating)
+	if obj_gameManager.finalInvasionProgress == -1
+		obj_gameManager.finalInvasionProgress = 
 			(obj_invasionManager.invasionCounter / obj_invasionManager.framesToInvasion) * 100
 	
 	// disable selection of new weapons

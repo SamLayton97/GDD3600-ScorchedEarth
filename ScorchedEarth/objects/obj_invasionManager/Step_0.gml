@@ -39,10 +39,10 @@ if obj_gameManager.currPhase == InvasionPhase.invasion and !instance_exists(obj_
 	obj_gameManager.currPhase = InvasionPhase.postInvasion
 	
 	// if final player AP hasn't been set, send evaluator final AP
-	if obj_evaluationManager.endPlayerAP == -1
-		obj_evaluationManager.endPlayerAP = obj_gameManager.currAP
+	if obj_gameManager.finalPlayerAP == -1
+		obj_gameManager.finalPlayerAP = obj_gameManager.currAP
 	
 	// if invasion progress percent hasn't been set, send evaluator invasion progress (at time of retreating)
-	if obj_evaluationManager.endInvasionProgressPercent == -1
-		obj_evaluationManager.endInvasionProgressPercent = 100
+	if obj_gameManager.finalInvasionProgress == -1
+		obj_gameManager.finalInvasionProgress = 100
 }

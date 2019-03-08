@@ -108,8 +108,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "fireCost",
+            "varType": 1
+        },
+        {
+            "id": "512348b2-2b9c-46be-8f3b-4258d781c7f5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "explosivesCost",
             "varType": 1
         }
     ],

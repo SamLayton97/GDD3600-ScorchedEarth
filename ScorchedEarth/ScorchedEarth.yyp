@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "b3915e79-e57e-4516-82ed-269732356595",
+            "Value": {
+                "id": "9bc39e12-42d9-42ad-85cf-d9bcc319de46",
+                "resourcePath": "objects\\obj_explosivesSelectButton\\obj_explosivesSelectButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b445ca4b-712c-4f59-b3a1-a2a66b8c40db",
             "Value": {
                 "id": "185ff64b-3725-4b9d-b43b-23be249b4f21",
@@ -466,7 +474,7 @@
             "Key": "bc7df8d6-bc45-4f69-9d39-b8600b18fac6",
             "Value": {
                 "id": "e4392e5f-9288-4abc-bcdf-a51630e02fad",
-                "resourcePath": "rooms\\rm_Farmland\\rm_Farmland.yy",
+                "resourcePath": "rooms\\rm_Fields\\rm_Fields.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -580,6 +588,14 @@
                 "id": "4e8f4d9f-f483-40c5-a4dd-528d7a5d3bd4",
                 "resourcePath": "views\\edc8d657-fdbe-4fe5-8f43-089baf4844e9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f05699b5-b11d-464a-a070-afc664cb644f",
+            "Value": {
+                "id": "eabe7b99-20c8-4fbf-8ed9-03388b5efef9",
+                "resourcePath": "sprites\\spr_smallButtonDisabled\\spr_smallButtonDisabled.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

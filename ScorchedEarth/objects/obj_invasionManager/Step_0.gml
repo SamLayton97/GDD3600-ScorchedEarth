@@ -38,6 +38,4 @@ if obj_gameManager.currPhase == InvasionPhase.invasion and !instance_exists(obj_
 	// set invasion phase to post-invasion
 	obj_gameManager.currPhase = InvasionPhase.postInvasion
 	show_debug_message("invasion end")
-	
-	// TODO: spawn evaluator
 }

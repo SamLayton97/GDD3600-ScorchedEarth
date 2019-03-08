@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b4ba380-3539-42db-92ec-29792607c401",
+            "Value": {
+                "id": "2e94a8d1-222c-44c0-b55b-fd0ce9982334",
+                "resourcePath": "sprites\\spr_evaluatorUIPanelFailure\\spr_evaluatorUIPanelFailure.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "122991ef-dbb4-44fc-91b0-dea65f939bd8",
             "Value": {
                 "id": "b5e87c67-6431-4b48-9e2b-372b419738fd",
@@ -226,7 +234,7 @@
             "Key": "4dc8d3c7-994c-4176-b5b6-f49518f495eb",
             "Value": {
                 "id": "08e7a5c7-1295-4078-95ab-458101abd0ba",
-                "resourcePath": "sprites\\spr_evaluatorUIPanel\\spr_evaluatorUIPanel.yy",
+                "resourcePath": "sprites\\spr_evaluatorUIPanelSuccess\\spr_evaluatorUIPanelSuccess.yy",
                 "resourceType": "GMSprite"
             }
         },

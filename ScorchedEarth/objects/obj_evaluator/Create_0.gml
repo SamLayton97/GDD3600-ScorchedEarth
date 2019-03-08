@@ -52,3 +52,16 @@ for (var i = 0; i < 3; i++)
 		ds_list_delete(remainingStructures, highestValueIndex)
 	}
 }
+
+// if player meets 'scorched earth' quota
+if finalPercentage >= passThreshold
+{
+	// set sprite to reflect positive outcome
+	sprite_index = missionSuccessSprite
+}
+// otherwise (player failed)
+else
+{
+	// set sprite to reflect negative outcome
+	sprite_index = missionFailedSprite
+}

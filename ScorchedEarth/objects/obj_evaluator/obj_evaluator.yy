@@ -69,6 +69,48 @@
             "value": "fnt_evaluatorLarge",
             "varName": "myLargeFont",
             "varType": 5
+        },
+        {
+            "id": "2735de34-a3b1-431f-80b5-e1566ec2ca46",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "70",
+            "varName": "passThreshold",
+            "varType": 0
+        },
+        {
+            "id": "9e31c5c6-33d3-431f-8dab-3ca73e09b791",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_evaluatorUIPanelSuccess",
+            "varName": "missionSuccessSprite",
+            "varType": 5
+        },
+        {
+            "id": "4d5c51ff-5bc0-42d4-9dc9-54b48fc7e680",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_evaluatorUIPanelFailure",
+            "varName": "missionFailedSprite",
+            "varType": 5
         }
     ],
     "solid": false,

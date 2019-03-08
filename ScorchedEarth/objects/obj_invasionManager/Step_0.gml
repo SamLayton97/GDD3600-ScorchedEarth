@@ -9,6 +9,10 @@ if invasionCounter >= framesToInvasion and obj_gameManager.currPhase == Invasion
 	// spawn in 7 random units in V formation
 	for (var i = 0; i < 7; i++)
 	{
+		// if it exists, destroy frontline demarcation line
+		if instance_exists(obj_frontline)
+			instance_destroy(obj_frontline)
+		
 		// randomize what enemy to spawn
 		randomize()
 		var spawnValue = random_range(0, 1)

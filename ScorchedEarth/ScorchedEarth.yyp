@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03aaacbf-9c48-4cfa-8d13-4968b0ae4130",
+            "Value": {
+                "id": "4adcf3bc-78b3-4bb0-bb5f-37e6f15b2f31",
+                "resourcePath": "fonts\\fnt_evaluator\\fnt_evaluator.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "122991ef-dbb4-44fc-91b0-dea65f939bd8",
             "Value": {
                 "id": "b5e87c67-6431-4b48-9e2b-372b419738fd",

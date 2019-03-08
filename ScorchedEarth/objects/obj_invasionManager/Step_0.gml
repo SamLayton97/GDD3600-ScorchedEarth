@@ -27,3 +27,13 @@ if invasionCounter >= framesToInvasion and obj_gameManager.currPhase == Invasion
 // otherwise, increment counter
 else
 	invasionCounter++
+	
+// if invasion has begun and no enemies remain (passed over map), end invasion phase
+if obj_gameManager.currPhase == InvasionPhase.invasion and !instance_exists(obj_enemy)
+{
+	// set invasion phase to post-invasion
+	obj_gameManager.currPhase = InvasionPhase.postInvasion
+	show_debug_message("invasion end")
+	
+	// TODO: spawn evaluator
+}

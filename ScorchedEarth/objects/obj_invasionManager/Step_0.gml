@@ -47,5 +47,5 @@ if obj_gameManager.currPhase == InvasionPhase.invasion and !instance_exists(obj_
 		obj_gameManager.finalInvasionProgress = 100
 		
 	// spawn evaluator to rate player's performance
-	instance_create_layer(0, 0, "Managers", obj_evaluator)
+	instance_create_layer(window_get_width() / 2, window_get_height() / 2, "UpperUILayer", obj_evaluator)
 }

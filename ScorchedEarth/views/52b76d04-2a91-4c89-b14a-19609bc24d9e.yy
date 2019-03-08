@@ -6,8 +6,8 @@
     "children": [
         "fb86d482-2e80-4793-a9ad-ee1d8b33e38b",
         "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3",
-        "c79495ff-5e22-48a5-b103-47ab7478f2af",
-        "b3915e79-e57e-4516-82ed-269732356595"
+        "b3915e79-e57e-4516-82ed-269732356595",
+        "d195fe45-09f3-4dde-8f39-c702d2d5608e"
     ],
     "filterType": "GMObject",
     "folderName": "Buttons",

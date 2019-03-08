@@ -551,14 +551,6 @@
             }
         },
         {
-            "Key": "c79495ff-5e22-48a5-b103-47ab7478f2af",
-            "Value": {
-                "id": "8581fc59-d1fa-4e99-827e-011db3c641c7",
-                "resourcePath": "objects\\obj_fireSelectButton\\obj_fireSelectButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c808e63b-bf53-450c-a7c0-9560e8ee8b07",
             "Value": {
                 "id": "b51e3329-db45-4d57-b2c3-02917ee64ed0",
@@ -588,6 +580,14 @@
                 "id": "766f6a45-123a-4478-8322-fd382b1c697e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d195fe45-09f3-4dde-8f39-c702d2d5608e",
+            "Value": {
+                "id": "8f554d35-5c1a-4074-85e9-4f54d1cc7e62",
+                "resourcePath": "objects\\obj_fireSelectButton\\obj_fireSelectButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {

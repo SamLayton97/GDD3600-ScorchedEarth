@@ -6,7 +6,9 @@ if !disabled
 	// Inherit the parent event
 	event_inherited();
 
-	// TODO: lock player out of starting new fires/explosives
+	// disable selection of new weapons
+	obj_explosivesSelectButton.disabled = true
+	obj_fireSelectButton.disabled = true
 
 	// if invasion has not already started, do so now
 	obj_invasionManager.invasionCounter = obj_invasionManager.framesToInvasion

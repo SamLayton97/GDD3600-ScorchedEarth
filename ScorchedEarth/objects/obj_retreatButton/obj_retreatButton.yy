@@ -13,6 +13,46 @@
             "enumb": 4,
             "eventtype": 6,
             "m_owner": "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3"
+        },
+        {
+            "id": "74d8af26-c812-49f0-880e-83b5e2355ce0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3"
+        },
+        {
+            "id": "c4088c42-ae7d-497c-a572-5fa6e32c100e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3"
+        },
+        {
+            "id": "074074bc-7246-41f9-9079-180c54fcf846",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3"
+        },
+        {
+            "id": "a2e1d6fe-cd60-4972-b3d2-6093379e0ba0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -40,7 +80,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "cfd0b6dc-2898-478b-b9bc-4434c6512c81",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_standardButtonDisabled",
+            "varName": "myDisabledSprite",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "5867531b-7fd4-4778-976c-79b438d9434a",
     "visible": true

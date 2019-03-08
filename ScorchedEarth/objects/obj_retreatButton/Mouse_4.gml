@@ -9,7 +9,10 @@ if !disabled
 	// disable selection of new weapons
 	obj_explosivesSelectButton.disabled = true
 	obj_fireSelectButton.disabled = true
-
+	
+	// disable placement of new fires or explosives
+	obj_gameManager.playerRetreated = true
+	
 	// if invasion has not already started, do so now
 	obj_invasionManager.invasionCounter = obj_invasionManager.framesToInvasion
 	

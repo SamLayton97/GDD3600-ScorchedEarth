@@ -1,7 +1,7 @@
 /// @description When user clicks on this structure
 
-// if enemy has not seized structure
-if !isCaptured
+// if enemy has not seized structure and player hasn't retreated
+if !isCaptured and !obj_gameManager.playerRetreated
 {
 	// if player has molotovs equipped
 	if obj_gameManager.currLeftPressWeapon == LeftPressWeapon.molotov

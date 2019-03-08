@@ -1,7 +1,8 @@
 /// @description Used for initialization
 
-// initialize player's current AP and current left-press weapon
+// initialize weapon placement variables
 currAP = startingAP
+playerRetreated = false
 currLeftPressWeapon = LeftPressWeapon.molotov
 
 // initialize state of level

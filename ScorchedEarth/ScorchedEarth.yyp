@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3f6e4257-5ac7-4759-b425-8b5da2bc1711",
+            "Value": {
+                "id": "9e61f335-1909-4349-be80-3611c8caa02c",
+                "resourcePath": "objects\\obj_nextMissionButton\\obj_nextMissionButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40b4c6e6-91d8-4b9d-bab7-b14b50800419",
             "Value": {
                 "id": "a5c0f7f3-bd4a-4910-835c-9bc9e28a05e0",
@@ -175,11 +183,27 @@
             }
         },
         {
+            "Key": "4476a532-eaea-42a7-ad61-4b5f5661deea",
+            "Value": {
+                "id": "54b2de28-16af-4628-9dd9-0158f49f0a52",
+                "resourcePath": "sprites\\spr_evaluatorButtonHighlighted\\spr_evaluatorButtonHighlighted.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "454373d3-ec9f-4002-84ee-583fce81dda9",
             "Value": {
                 "id": "bc538cd7-9f7c-40be-abee-326e5e027b59",
                 "resourcePath": "views\\454373d3-ec9f-4002-84ee-583fce81dda9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45fe029d-a6d9-4052-84fe-ceaf736a85c1",
+            "Value": {
+                "id": "c1704f8d-db67-4050-bc9a-ad2c8a8f6e68",
+                "resourcePath": "objects\\obj_retryMissionButton\\obj_retryMissionButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -599,6 +623,14 @@
             }
         },
         {
+            "Key": "c4bc05b1-29b4-426d-8bf9-f73863edc9d1",
+            "Value": {
+                "id": "9c21447c-38cd-4c4b-b903-7a0aed5700b0",
+                "resourcePath": "views\\c4bc05b1-29b4-426d-8bf9-f73863edc9d1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c5a334d0-1c36-4ba5-96d4-93bb20da44cf",
             "Value": {
                 "id": "45d06298-818a-443d-b66d-90b15be0b8b7",
@@ -724,6 +756,14 @@
                 "id": "36a6da63-df08-430f-bc2c-51aadb668baa",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6928783-c9a3-4118-b6da-d3ad8b74a856",
+            "Value": {
+                "id": "3d7bb032-09a8-401e-98bd-60976e32ae2a",
+                "resourcePath": "sprites\\spr_evaluatorButton\\spr_evaluatorButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

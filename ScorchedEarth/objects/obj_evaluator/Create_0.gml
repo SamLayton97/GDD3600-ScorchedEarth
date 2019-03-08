@@ -58,10 +58,17 @@ if finalPercentage >= obj_gameManager.passThreshold
 {
 	// set sprite to reflect positive outcome
 	sprite_index = missionSuccessSprite
+	
+	// spawn both retry and proceed buttons
+	instance_create_layer(x - 85, y + 225, "TopUILayer", obj_retryMissionButton)
+	instance_create_layer(x + 85, y + 225, "TopUILayer", obj_nextMissionButton)
 }
 // otherwise (player failed to meet quota)
 else
 {
 	// set sprite to reflect negative outcome
 	sprite_index = missionFailedSprite
+	
+	// spawn only the retry button
+	instance_create_layer(x, y + 225, "TopUILayer", obj_retryMissionButton)
 }

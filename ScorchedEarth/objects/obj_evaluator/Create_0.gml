@@ -54,12 +54,12 @@ for (var i = 0; i < 3; i++)
 }
 
 // if player meets 'scorched earth' quota
-if finalPercentage >= passThreshold
+if finalPercentage >= obj_gameManager.passThreshold
 {
 	// set sprite to reflect positive outcome
 	sprite_index = missionSuccessSprite
 }
-// otherwise (player failed)
+// otherwise (player failed to meet quota)
 else
 {
 	// set sprite to reflect negative outcome

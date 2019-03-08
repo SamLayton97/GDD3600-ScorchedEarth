@@ -115,6 +115,20 @@
             "value": "3",
             "varName": "explosivesCost",
             "varType": 1
+        },
+        {
+            "id": "8acf9174-7b6b-4415-8d7a-2c11851733b6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "70",
+            "varName": "passThreshold",
+            "varType": 0
         }
     ],
     "solid": false,

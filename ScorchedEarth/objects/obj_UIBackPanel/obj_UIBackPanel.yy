@@ -53,7 +53,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "fnt_levelConditions",
-            "varName": "myFont",
+            "varName": "myConditionsFont",
             "varType": 5
         },
         {
@@ -97,6 +97,20 @@
             "value": "22.06.19XX",
             "varName": "levelDate",
             "varType": 2
+        },
+        {
+            "id": "117817a2-252d-4e94-a826-d69c08ba591d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "myQuotaFont",
+            "varType": 5
         }
     ],
     "solid": false,

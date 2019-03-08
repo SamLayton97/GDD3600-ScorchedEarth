@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "56fc91c5-64f1-4f9f-9655-55863339a05e",
+            "Value": {
+                "id": "99089b42-3af3-4bdd-91af-40beb10381d7",
+                "resourcePath": "views\\56fc91c5-64f1-4f9f-9655-55863339a05e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5867531b-7fd4-4778-976c-79b438d9434a",
             "Value": {
                 "id": "77a80ae8-f300-4597-a5ce-6801c7326e03",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "74dc57f0-88a0-4ec5-816a-bac610dd7d63",
+            "Value": {
+                "id": "9f4b408d-d8f8-4d3a-9542-c483ec74bb1f",
+                "resourcePath": "views\\74dc57f0-88a0-4ec5-816a-bac610dd7d63.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7aaebc5a-bdca-40f4-aaef-0123d6ea36a3",
             "Value": {
                 "id": "a655caac-8e0e-45f8-8906-095e04751967",
@@ -372,6 +388,14 @@
                 "id": "e72e23e0-3d66-4d66-a01e-62f3caddf3d9",
                 "resourcePath": "views\\7b4c7a09-77e2-4a34-a8d1-a58b6b7e4cd3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7c50f543-4933-4787-9607-7e801f463a7c",
+            "Value": {
+                "id": "dc33fa96-a7cf-4af7-a08d-6c8ed8fa1420",
+                "resourcePath": "fonts\\fnt_quota\\fnt_quota.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -580,6 +604,14 @@
                 "id": "45d06298-818a-443d-b66d-90b15be0b8b7",
                 "resourcePath": "sprites\\spr_standardButtonHighlighted\\spr_standardButtonHighlighted.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c5e769b9-536a-498c-9d21-391cdcae187e",
+            "Value": {
+                "id": "dbc90862-a586-4b71-a3a7-0c167d96e38c",
+                "resourcePath": "views\\c5e769b9-536a-498c-9d21-391cdcae187e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

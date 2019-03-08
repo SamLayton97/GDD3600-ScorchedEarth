@@ -18,7 +18,7 @@ var unusedAPRatio = obj_gameManager.finalPlayerAP / obj_gameManager.startingAP
 var unusedTimeRatio = obj_gameManager.finalInvasionProgress / 100
 finalScore = round(finalPercentage * (1 + unusedAPRatio) * (1 + unusedTimeRatio) * 100)
 
-// copy over remaining structures
+// copy over remaining structures from GM
 var remainingStructures = ds_list_create()
 ds_list_copy(remainingStructures, obj_gameManager.structures)
 
@@ -43,8 +43,8 @@ for (var i = 0; i < 3; i++)
 		}
 	}
 	
-	// if highest value wasn't nothing
-	if highestValue != -1 and highestValueIndex != -1
+	// if highest value structure wasn't nothing
+	if highestValue > 0 and highestValueIndex != -1
 	{
 		// remove structure from remaining list and add to top 3
 		var valuableStructure = ds_list_find_value(remainingStructures, highestValueIndex)
@@ -52,7 +52,3 @@ for (var i = 0; i < 3; i++)
 		ds_list_delete(remainingStructures, highestValueIndex)
 	}
 }
-
-show_debug_message(string(ds_list_size(obj_gameManager.structures)))
-show_debug_message(string(ds_list_size(remainingStructures)))
-//show_debug_message(string(ds_list_size(mostValuableStructures)))

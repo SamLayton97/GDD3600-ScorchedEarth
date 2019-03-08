@@ -23,3 +23,8 @@ draw_text_transformed_color(quotaDrawX, quotaDrawY + 120, string(finalPercentage
 	c_white, c_white, c_white, c_white, 1)
 draw_text_color(quotaDrawX + 60, quotaDrawY + 150, "... fulfilled.",
 	c_white, c_white, c_white, c_white, 1)
+	
+// draw final score
+draw_set_font(myLargeFont)
+draw_text_color(quotaDrawX, quotaDrawY + 200, "Final Score: " + string(finalScore),
+	c_white, c_white, c_white, c_white, 1)

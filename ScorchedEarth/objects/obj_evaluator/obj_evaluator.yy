@@ -55,6 +55,20 @@
             "value": "fnt_evaluator",
             "varName": "myFont",
             "varType": 5
+        },
+        {
+            "id": "545732ef-00f5-4187-975a-40278bbde945",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "fnt_evaluatorLarge",
+            "varName": "myLargeFont",
+            "varType": 5
         }
     ],
     "solid": false,

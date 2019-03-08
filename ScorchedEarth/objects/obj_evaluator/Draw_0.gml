@@ -17,3 +17,9 @@ draw_text_color(quotaDrawX, quotaDrawY,
 draw_text_color(quotaDrawX, quotaDrawY + 30,
 	"Structures Destroyed: " + string(structuresDestroyed) + "/" + string(totalStructures),
 	c_white, c_white, c_white, c_white, 1)
+draw_text_color(quotaDrawX - 25, quotaDrawY + 90, "Scorched Earth Quota ...", 
+	c_white, c_white, c_white, c_white, 1)
+draw_text_transformed_color(quotaDrawX, quotaDrawY + 120, string(finalPercentage) + "%", 1.1, 1.1, 0,
+	c_white, c_white, c_white, c_white, 1)
+draw_text_color(quotaDrawX + 60, quotaDrawY + 150, "... fulfilled.",
+	c_white, c_white, c_white, c_white, 1)

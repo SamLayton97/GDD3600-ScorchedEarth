@@ -45,4 +45,7 @@ if obj_gameManager.currPhase == InvasionPhase.invasion and !instance_exists(obj_
 	// if invasion progress percent hasn't been set, send evaluator invasion progress (at time of retreating)
 	if obj_gameManager.finalInvasionProgress == -1
 		obj_gameManager.finalInvasionProgress = 100
+		
+	// spawn evaluator to rate player's performance
+	instance_create_layer(0, 0, "Managers", obj_evaluator)
 }

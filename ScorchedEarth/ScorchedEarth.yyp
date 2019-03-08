@@ -42,7 +42,7 @@
             "Key": "16967c75-cf47-49b1-97bc-16f76422afa4",
             "Value": {
                 "id": "a3ff3271-b333-43ad-803f-b9100fb6c901",
-                "resourcePath": "objects\\obj_evaluationManager\\obj_evaluationManager.yy",
+                "resourcePath": "objects\\obj_evaluator\\obj_evaluator.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -11,7 +11,7 @@ currPhase = InvasionPhase.preInvasion
 // initialize resource tracking variables
 resourcesDestroyed = 0
 totalResources = 0
-structuresDestroyed = 0
+totalStructures = 0
 
 // initialize efficiency variables
 finalPlayerAP = -1

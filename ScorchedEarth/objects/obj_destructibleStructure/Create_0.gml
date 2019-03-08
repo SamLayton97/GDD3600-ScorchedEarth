@@ -8,6 +8,7 @@ isCaptured = false
 if resourceValue > 0
 {
 	obj_gameManager.totalResources += resourceValue
+	obj_gameManager.totalStructures++
 	ds_list_add(obj_gameManager.structures, id)
 }
 

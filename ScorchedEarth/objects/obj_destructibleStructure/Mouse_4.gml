@@ -19,7 +19,15 @@ if !isCaptured and !obj_gameManager.playerRetreated
 	// otherwise (dynamite equipped as left-press weapon)
 	else
 	{
-		// TODO: plant dynamite on structure
+		// if player has AP to spend on dynamite
+		if obj_gameManager.currAP >= obj_gameManager.explosivesCost
+		{
+			// deduct AP from player's count
+			obj_gameManager.currAP -= obj_gameManager.explosivesCost
+			
+			// instantly destroy structure
+			instance_destroy(id)
+		}
 		
 	}
 }

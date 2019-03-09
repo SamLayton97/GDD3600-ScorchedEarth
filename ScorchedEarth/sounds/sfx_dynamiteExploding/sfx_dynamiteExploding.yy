@@ -1,8 +1,8 @@
 {
-    "id": "d1ccda31-a966-4e0e-8051-debc2a46b88f",
+    "id": "295a5483-48bb-49e6-bb3b-ad37df827048",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sfx_fireSpread",
+    "name": "sfx_dynamiteExploding",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.6
+    "volume": 1
 }

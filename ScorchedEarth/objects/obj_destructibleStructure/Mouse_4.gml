@@ -28,6 +28,9 @@ if !isCaptured and !obj_gameManager.playerRetreated
 			// deduct AP from player's count
 			obj_gameManager.currAP -= obj_gameManager.explosivesCost
 			
+			// play 'explosion' sound effect
+			audio_play_sound(sfx_dynamiteExploding, 10, false)
+			
 			// instantly destroy structure
 			instance_destroy(id)
 		}

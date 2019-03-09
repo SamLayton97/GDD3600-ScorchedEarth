@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "295a5483-48bb-49e6-bb3b-ad37df827048",
+            "Value": {
+                "id": "df53240c-b69c-4483-9284-5be075a021d4",
+                "resourcePath": "sounds\\sfx_dynamiteExploding\\sfx_dynamiteExploding.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "29f1a7aa-d518-4f18-bfaa-f9e9b20c3c55",
             "Value": {
                 "id": "425b591e-2c3d-4a27-89fc-614cc856a4ed",

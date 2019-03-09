@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "618e360f-0588-4319-b9f3-d78f5a35d8f0",
+            "Value": {
+                "id": "8bf5b0dc-f3f9-4c88-b39b-fbd789020a2b",
+                "resourcePath": "sprites\\bgr_gameplayBackground\\bgr_gameplayBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "679a5cde-c269-409d-9ef9-425593f3314b",
             "Value": {
                 "id": "a2dc9d64-dab4-419f-8483-7be1254025ba",
@@ -772,6 +780,14 @@
                 "id": "2721bb02-84d9-4ab7-b757-097a05410729",
                 "resourcePath": "sprites\\spr_wheatHighlighted\\spr_wheatHighlighted.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a210a0a9-2582-4e33-a75c-c36f90b826a5",
+            "Value": {
+                "id": "261274e5-cb8b-443e-bdd6-3b7ee4166ac3",
+                "resourcePath": "views\\a210a0a9-2582-4e33-a75c-c36f90b826a5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

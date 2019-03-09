@@ -53,6 +53,9 @@ for (var i = 0; i < 3; i++)
 	}
 }
 
+// play 'message received' sound
+audio_play_sound(sfx_messageReceived, 10, false)
+
 // if player meets 'scorched earth' quota
 if finalPercentage >= obj_gameManager.passThreshold
 {

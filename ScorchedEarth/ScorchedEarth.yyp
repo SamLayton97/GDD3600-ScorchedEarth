@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "e258a26d-f0b3-4b51-aef3-3d14501996fc",
+            "Value": {
+                "id": "37c1affc-8c33-401f-afc0-e529959fb79d",
+                "resourcePath": "sprites\\bgr_helpScreen\\bgr_helpScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e441f704-e644-41ae-875a-182218f14402",
             "Value": {
                 "id": "6b5d17d5-8345-4609-9337-be4765eabb90",

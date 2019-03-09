@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "07c8ab0d-a7bc-4235-a143-6c9cb1808358",
+            "Value": {
+                "id": "d760f17c-c695-4bad-8dbb-ff546e5afff1",
+                "resourcePath": "sounds\\sfx_highlightStructure\\sfx_highlightStructure.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0b4ba380-3539-42db-92ec-29792607c401",
             "Value": {
                 "id": "2e94a8d1-222c-44c0-b55b-fd0ce9982334",

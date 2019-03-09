@@ -9,7 +9,8 @@
         "1ec9fdc9-0d7f-4b0d-b2c3-bfcc3bd86a2d",
         "295a5483-48bb-49e6-bb3b-ad37df827048",
         "dffeabc5-312d-4554-b38d-c0a33a85bf67",
-        "3d930eaf-e892-41a6-9d2a-ae7f7675ab57"
+        "3d930eaf-e892-41a6-9d2a-ae7f7675ab57",
+        "07c8ab0d-a7bc-4235-a143-6c9cb1808358"
     ],
     "filterType": "GMSound",
     "folderName": "Gameplay Sounds",

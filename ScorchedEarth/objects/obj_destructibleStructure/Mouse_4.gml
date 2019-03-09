@@ -14,6 +14,9 @@ if !isCaptured and !obj_gameManager.playerRetreated
 	
 			// deduct AP from player's count
 			obj_gameManager.currAP -= obj_gameManager.fireCost
+			
+			// play 'set fire' sound effect
+			audio_play_sound(sfx_setFire, 10, false)
 		}
 	}
 	// otherwise (dynamite equipped as left-press weapon)

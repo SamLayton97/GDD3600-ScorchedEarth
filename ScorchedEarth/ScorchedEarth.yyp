@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "3d930eaf-e892-41a6-9d2a-ae7f7675ab57",
+            "Value": {
+                "id": "ae71b55f-5fd1-4d85-b0f4-acfde11f5365",
+                "resourcePath": "sounds\\sfx_enemyCapturesStructure\\sfx_enemyCapturesStructure.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3eca8539-8149-4d4e-a9b1-0ab1b5f8b957",
             "Value": {
                 "id": "995d5272-7887-4aae-9c17-e817a240c1e2",

@@ -6,7 +6,8 @@
     "children": [
         "122991ef-dbb4-44fc-91b0-dea65f939bd8",
         "466333df-ee82-421c-8e4a-68e057759ebe",
-        "b9f76c05-1605-4630-b188-8dc2b8f38851"
+        "b9f76c05-1605-4630-b188-8dc2b8f38851",
+        "532de201-748f-410b-ac75-19e0b3bd2e28"
     ],
     "filterType": "GMObject",
     "folderName": "Farmland Structures",

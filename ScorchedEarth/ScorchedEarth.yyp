@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "34709b64-468b-4277-be4f-f95da6c44ed0",
-            "Value": {
-                "id": "03fc6522-1fac-47fe-b0ff-0b436bf2e142",
-                "resourcePath": "sprites\\spr_howitzer\\spr_howitzer.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "36dc1d44-30b5-40da-8eb2-f204874b066f",
             "Value": {
                 "id": "95162212-ab8e-47cf-8a83-1d088e2e19ab",
@@ -671,14 +663,6 @@
             }
         },
         {
-            "Key": "7cb740fe-31fc-4e10-b8cd-06c310b664b1",
-            "Value": {
-                "id": "c136ab77-9146-438d-8b2b-8e239636e466",
-                "resourcePath": "sprites\\spr_howitzerCaptured\\spr_howitzerCaptured.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7d95e0c9-f817-499c-83f3-e5944532de72",
             "Value": {
                 "id": "f8d9072e-f98a-46cf-b724-36813569b34e",
@@ -692,14 +676,6 @@
                 "id": "0bc00226-1186-449d-ae93-b623690b9dfb",
                 "resourcePath": "views\\7dc915e0-94e5-4da6-b590-757aec7bf8ca.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7ed7a0c1-bb68-439d-b695-42471fa3cfbd",
-            "Value": {
-                "id": "319f719e-790a-408e-a8da-00c999949267",
-                "resourcePath": "sprites\\spr_howitzerHighlighted\\spr_howitzerHighlighted.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -764,14 +740,6 @@
                 "id": "63a7ef0f-f4ec-44b2-a156-19e40519f814",
                 "resourcePath": "sounds\\sfx_buttonPress\\sfx_buttonPress.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "9782dc58-848e-4347-a315-d8ee390d8c84",
-            "Value": {
-                "id": "24887099-1c1c-461e-bb7f-b81badc02cd4",
-                "resourcePath": "views\\9782dc58-848e-4347-a315-d8ee390d8c84.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1132,14 +1100,6 @@
                 "id": "0fb2eb74-d602-4936-9c0e-b643308ead12",
                 "resourcePath": "views\\d76a3f15-24c6-420b-a5b8-4d4183137f65.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d83661b4-33fc-4ba6-a323-0e30845d13d7",
-            "Value": {
-                "id": "98595f0a-464d-4bd8-972c-16392d4b220d",
-                "resourcePath": "objects\\obj_howitzer\\obj_howitzer.yy",
-                "resourceType": "GMObject"
             }
         },
         {

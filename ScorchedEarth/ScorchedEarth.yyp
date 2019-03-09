@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1ec9fdc9-0d7f-4b0d-b2c3-bfcc3bd86a2d",
+            "Value": {
+                "id": "604c562c-5cec-4197-8299-2dc83c0ad2fa",
+                "resourcePath": "sounds\\sfx_structureDestroyed\\sfx_structureDestroyed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1f17dba3-f6e2-402c-a7db-11f6e347e5eb",
             "Value": {
                 "id": "e1aed56d-c513-4251-9898-f89226c2832f",

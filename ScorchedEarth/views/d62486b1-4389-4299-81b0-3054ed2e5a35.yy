@@ -5,7 +5,8 @@
     "name": "d62486b1-4389-4299-81b0-3054ed2e5a35",
     "children": [
         "2e5761c1-e4f2-49a9-ad9e-652371e04e54",
-        "d1ccda31-a966-4e0e-8051-debc2a46b88f"
+        "d1ccda31-a966-4e0e-8051-debc2a46b88f",
+        "1ec9fdc9-0d7f-4b0d-b2c3-bfcc3bd86a2d"
     ],
     "filterType": "GMSound",
     "folderName": "Gameplay Sounds",

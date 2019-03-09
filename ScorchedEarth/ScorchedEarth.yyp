@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "7d95e0c9-f817-499c-83f3-e5944532de72",
+            "Value": {
+                "id": "f8d9072e-f98a-46cf-b724-36813569b34e",
+                "resourcePath": "rooms\\rm_townOutskirts\\rm_townOutskirts.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7dc915e0-94e5-4da6-b590-757aec7bf8ca",
             "Value": {
                 "id": "0bc00226-1186-449d-ae93-b623690b9dfb",
@@ -948,6 +956,14 @@
                 "id": "ee7d528e-7e0f-4021-b041-208968d3228f",
                 "resourcePath": "sprites\\spr_cottageCaptured\\spr_cottageCaptured.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6b163a7-d527-45b7-ab89-c60917018db4",
+            "Value": {
+                "id": "fe251ef6-bbad-4e97-a9fa-24c2bef0dab4",
+                "resourcePath": "objects\\obj_returnToMenuButton\\obj_returnToMenuButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {

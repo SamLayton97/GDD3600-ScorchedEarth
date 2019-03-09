@@ -4,4 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-// TODO: proceed to next room
+// depending on current room, proceed to next in succession of levels
+if room == rm_Fields
+	room_goto(rm_Farm)
+else if room == rm_Farm
+	room_goto(rm_townOutskirts)

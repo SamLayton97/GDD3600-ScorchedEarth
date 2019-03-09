@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "60dd7191-54a2-4e64-be36-23029753bedf",
             "propertyId": "ca1d08e4-6258-499d-9820-71d5f87f3d97",
-            "value": "0"
+            "value": "sfx_fieldsDialogue"
         }
     ],
     "parentObjectId": "60dd7191-54a2-4e64-be36-23029753bedf",

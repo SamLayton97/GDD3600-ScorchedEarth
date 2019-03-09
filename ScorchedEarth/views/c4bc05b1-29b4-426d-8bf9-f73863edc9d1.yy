@@ -11,7 +11,9 @@
         "f05699b5-b11d-464a-a070-afc664cb644f",
         "7f72219c-26a6-475e-aec0-03c673b42085",
         "f6928783-c9a3-4118-b6da-d3ad8b74a856",
-        "4476a532-eaea-42a7-ad61-4b5f5661deea"
+        "4476a532-eaea-42a7-ad61-4b5f5661deea",
+        "afdad7a8-6ba2-43c8-9836-2bf609ffcd3b",
+        "f2be377b-1465-449d-adf1-820a6f3e1435"
     ],
     "filterType": "GMSprite",
     "folderName": "Button Sprites",

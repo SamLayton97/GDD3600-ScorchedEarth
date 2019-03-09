@@ -967,6 +967,14 @@
             }
         },
         {
+            "Key": "aed0277b-8ded-4cfc-a6d6-5f77e7fc3570",
+            "Value": {
+                "id": "ca35ca5e-1fda-4572-b24d-bf189a8b3fe9",
+                "resourcePath": "objects\\obj_unevacuatedCottage\\obj_unevacuatedCottage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "afdad7a8-6ba2-43c8-9836-2bf609ffcd3b",
             "Value": {
                 "id": "84d50160-02b6-403a-9165-bef52f92b5ed",
@@ -1180,6 +1188,14 @@
                 "id": "d4335472-f0d2-4e57-a489-fe88c5cd6336",
                 "resourcePath": "views\\cdebd9ef-e9fd-4eb2-9943-11bb1b930596.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d0a6a411-3e20-4f55-a226-2590af02f0df",
+            "Value": {
+                "id": "8c029385-0def-41d5-ba38-6f8b3ddfd8a6",
+                "resourcePath": "sounds\\sfx_unevacuatedScream\\sfx_unevacuatedScream.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -127,6 +127,34 @@
             "value": "fnt_buttons",
             "varName": "myFont",
             "varType": 5
+        },
+        {
+            "id": "553076a7-6617-49a9-ae05-fef12452142d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sfx_buttonHighlight",
+            "varName": "myHighlightNoise",
+            "varType": 5
+        },
+        {
+            "id": "41b54a70-0007-42f6-b184-6a0d266f5892",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "myPressNoise",
+            "varType": 5
         }
     ],
     "solid": false,

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1dcd33c1-b93f-494c-85c3-9d5cb8e57638",
+            "Value": {
+                "id": "abe76281-58e5-4942-8943-2f3c63c0229a",
+                "resourcePath": "views\\1dcd33c1-b93f-494c-85c3-9d5cb8e57638.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1e3d132d-a266-4be0-a706-6f9f1b6dda86",
             "Value": {
                 "id": "fc2dddbe-e762-420e-ac18-925ebdc9f3a3",
@@ -156,6 +164,14 @@
                 "id": "c16a7a4d-8950-49f2-b5ed-a80402dc1696",
                 "resourcePath": "fonts\\fnt_structureName\\fnt_structureName.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2c32b4df-2a3c-4a43-9b77-780b759d1961",
+            "Value": {
+                "id": "46205a19-bdc0-46a7-a59e-b6a484054e57",
+                "resourcePath": "sounds\\sfx_buttonHighlight\\sfx_buttonHighlight.yy",
+                "resourceType": "GMSound"
             }
         },
         {

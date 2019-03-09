@@ -7,4 +7,5 @@ if sprite_index != myHighlightedSprite
 	mousedOver = true
 }
 
-// TODO: play button highlight noise
+// play button highlight noise
+audio_play_sound(myHighlightNoise, 4, false)

@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "961fba84-cbbc-47b1-b106-4cc71fe675a9",
+            "Value": {
+                "id": "63a7ef0f-f4ec-44b2-a156-19e40519f814",
+                "resourcePath": "sounds\\sfx_buttonPress\\sfx_buttonPress.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "97e146c9-fc1d-4f9d-b43c-5dbef81ccd90",
             "Value": {
                 "id": "e154c2d1-99d6-4da4-91a8-67e48fcd77ed",

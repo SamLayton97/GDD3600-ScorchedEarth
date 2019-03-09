@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "13a550bc-842f-4851-b6cb-7d0e7df41a99",
+            "Value": {
+                "id": "933e89e4-e93b-4740-b511-9027245c29bc",
+                "resourcePath": "objects\\obj_menuMusicManager\\obj_menuMusicManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "151be95b-37d8-472d-9b62-0fb4748016f2",
             "Value": {
                 "id": "e1c5be2d-5055-41af-8513-b93c91c7f95f",
@@ -194,7 +202,7 @@
             "Key": "29f416e3-b49b-4a95-9e9a-848bbd14c2f1",
             "Value": {
                 "id": "8b873b22-157c-45c6-83b2-d44f6f2ca484",
-                "resourcePath": "objects\\obj_backgroundMusicManager\\obj_backgroundMusicManager.yy",
+                "resourcePath": "objects\\obj_gameMusicManager\\obj_gameMusicManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -908,6 +916,14 @@
                 "id": "25e3cad0-4b11-4c8b-9b34-391e17bd65b0",
                 "resourcePath": "fonts\\fnt_buttonsMedium\\fnt_buttonsMedium.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "de664dd9-42b9-4fcf-bd92-ab5036ac0538",
+            "Value": {
+                "id": "40426aa7-e3d1-48e0-9ca8-401ba1b8ba9d",
+                "resourcePath": "sounds\\msc_titleBackground\\msc_titleBackground.yy",
+                "resourceType": "GMSound"
             }
         },
         {

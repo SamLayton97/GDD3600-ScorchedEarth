@@ -40,6 +40,14 @@
             "objectId": "fb86d482-2e80-4793-a9ad-ee1d8b33e38b",
             "propertyId": "9c24e869-6de4-4f4a-b44d-4885d1afe3f0",
             "value": "CREDITS"
+        },
+        {
+            "id": "c894f0ed-8818-4b13-bb4c-1d14b7e70c40",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "fb86d482-2e80-4793-a9ad-ee1d8b33e38b",
+            "propertyId": "4512a7cf-72ca-4870-a626-6a8ce4c252ce",
+            "value": "fnt_buttonsMedium"
         }
     ],
     "parentObjectId": "fb86d482-2e80-4793-a9ad-ee1d8b33e38b",

@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "db4163be-130a-4a59-882b-80573140e8ac",
+            "Value": {
+                "id": "25e3cad0-4b11-4c8b-9b34-391e17bd65b0",
+                "resourcePath": "fonts\\fnt_buttonsMedium\\fnt_buttonsMedium.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "dfa948cb-1829-4327-992e-d2d2cbe29662",
             "Value": {
                 "id": "417582f9-04a6-4f0c-9559-f8225bf41764",

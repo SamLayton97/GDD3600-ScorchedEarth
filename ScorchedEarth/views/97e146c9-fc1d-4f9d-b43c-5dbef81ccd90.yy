@@ -5,7 +5,8 @@
     "name": "97e146c9-fc1d-4f9d-b43c-5dbef81ccd90",
     "children": [
         "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d",
-        "49a0684d-edf2-4a3c-8750-aebf5ef5b987"
+        "49a0684d-edf2-4a3c-8750-aebf5ef5b987",
+        "dfd32cd5-56fa-4619-aa7e-d318176f58b6"
     ],
     "filterType": "GMObject",
     "folderName": "Destructible Structures",

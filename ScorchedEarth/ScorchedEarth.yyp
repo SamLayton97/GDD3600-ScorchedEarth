@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "18e81fec-ef63-44d0-9275-385f8ce89745",
+            "Value": {
+                "id": "5428b7bb-37c8-49c3-8992-70d6c698ba5f",
+                "resourcePath": "sounds\\msc_gameplayBackground\\msc_gameplayBackground.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1dcd33c1-b93f-494c-85c3-9d5cb8e57638",
             "Value": {
                 "id": "abe76281-58e5-4942-8943-2f3c63c0229a",
@@ -171,6 +179,14 @@
             "Value": {
                 "id": "425b591e-2c3d-4a27-89fc-614cc856a4ed",
                 "resourcePath": "objects\\obj_rubble\\obj_rubble.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "29f416e3-b49b-4a95-9e9a-848bbd14c2f1",
+            "Value": {
+                "id": "8b873b22-157c-45c6-83b2-d44f6f2ca484",
+                "resourcePath": "objects\\obj_backgroundMusicManager\\obj_backgroundMusicManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -891,6 +907,14 @@
             "Value": {
                 "id": "4e8f4d9f-f483-40c5-a4dd-528d7a5d3bd4",
                 "resourcePath": "views\\edc8d657-fdbe-4fe5-8f43-089baf4844e9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef65f4e4-e7b7-4ce9-a307-00935031dd1a",
+            "Value": {
+                "id": "a39597e2-63f8-44de-8577-874c4cb051ba",
+                "resourcePath": "views\\ef65f4e4-e7b7-4ce9-a307-00935031dd1a.yy",
                 "resourceType": "GMFolder"
             }
         },

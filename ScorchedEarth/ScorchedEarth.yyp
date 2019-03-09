@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "8447a464-6569-4feb-a74a-75064fa3eb88",
+            "Value": {
+                "id": "42259218-7709-4d48-b9e3-2ab69e41f9c1",
+                "resourcePath": "sounds\\sfx_denied\\sfx_denied.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "86447254-3519-46ca-aeb8-19b0e0fdb433",
             "Value": {
                 "id": "1762e851-685d-40cb-89c0-f872d0acedc7",

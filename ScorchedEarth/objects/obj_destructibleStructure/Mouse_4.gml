@@ -18,6 +18,9 @@ if !isCaptured and !obj_gameManager.playerRetreated
 			// play 'set fire' sound effect
 			audio_play_sound(sfx_setFire, 10, false)
 		}
+		// otherwise, play denied sound
+		else
+			audio_play_sound(sfx_denied, 10, false)
 	}
 	// otherwise (dynamite equipped as left-press weapon)
 	else
@@ -34,6 +37,9 @@ if !isCaptured and !obj_gameManager.playerRetreated
 			// instantly destroy structure
 			instance_destroy(id)
 		}
+		// otherwise (insufficient funds), play denied sound
+		else
+			audio_play_sound(sfx_denied, 10, false)
 		
 	}
 }

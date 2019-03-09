@@ -903,6 +903,14 @@
             }
         },
         {
+            "Key": "dffeabc5-312d-4554-b38d-c0a33a85bf67",
+            "Value": {
+                "id": "93c8832a-8a22-4958-9f83-2891df87cb2c",
+                "resourcePath": "sounds\\sfx_invasionBegins\\sfx_invasionBegins.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e441f704-e644-41ae-875a-182218f14402",
             "Value": {
                 "id": "6b5d17d5-8345-4609-9337-be4765eabb90",

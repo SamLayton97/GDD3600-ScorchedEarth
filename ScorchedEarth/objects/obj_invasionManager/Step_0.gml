@@ -6,6 +6,9 @@ if invasionCounter >= framesToInvasion and obj_gameManager.currPhase == Invasion
 	// start invasion phase
 	obj_gameManager.currPhase = InvasionPhase.invasion
 	
+	// play invasion sound
+	audio_play_sound(sfx_invasionBegins, 5, false)
+	
 	// spawn in 7 random units in V formation
 	for (var i = 0; i < 7; i++)
 	{

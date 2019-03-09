@@ -31,8 +31,9 @@ if invasionCounter >= framesToInvasion and obj_gameManager.currPhase == Invasion
 			instance_create_layer(spawnX, spawnY, "Enemies", obj_infantry)
 	}
 }
-// otherwise, increment counter
-else
+
+// if game is still in pre-invasion phase and no UI messages exist, increment invasion counter
+if obj_gameManager.currPhase == InvasionPhase.preInvasion and !instance_exists(obj_UIMessage)
 	invasionCounter++
 	
 // if invasion has begun and no enemies remain (passed over map), end invasion phase

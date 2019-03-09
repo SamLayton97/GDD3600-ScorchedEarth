@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02f86b13-91ea-463b-b7b2-ba092466d094",
+            "Value": {
+                "id": "c15f17a0-a08a-4690-a63b-dff1abcaa407",
+                "resourcePath": "objects\\obj_fieldsMessage\\obj_fieldsMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "03aaacbf-9c48-4cfa-8d13-4968b0ae4130",
             "Value": {
                 "id": "4adcf3bc-78b3-4bb0-bb5f-37e6f15b2f31",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "2e94a8d1-222c-44c0-b55b-fd0ce9982334",
                 "resourcePath": "sprites\\spr_evaluatorUIPanelFailure\\spr_evaluatorUIPanelFailure.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0e2beddb-5621-422d-80cd-23170a544e15",
+            "Value": {
+                "id": "d55e3600-7b05-4fdc-8a33-4ff890af4d42",
+                "resourcePath": "sprites\\spr_fieldsTutorialMessage\\spr_fieldsTutorialMessage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "3d78c1eb-37d2-4627-9b6e-7196ee15237a",
+            "Value": {
+                "id": "4d843167-49a2-4cb9-a430-32614343d9ef",
+                "resourcePath": "sounds\\sfx_fieldsDialogue\\sfx_fieldsDialogue.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3d930eaf-e892-41a6-9d2a-ae7f7675ab57",
             "Value": {
                 "id": "ae71b55f-5fd1-4d85-b0f4-acfde11f5365",
@@ -356,6 +380,14 @@
                 "id": "54b2de28-16af-4628-9dd9-0158f49f0a52",
                 "resourcePath": "sprites\\spr_evaluatorButtonHighlighted\\spr_evaluatorButtonHighlighted.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4504c760-e25b-4a51-826f-dbcdc52f04ac",
+            "Value": {
+                "id": "cf1e66e7-ac48-470b-adf8-0b4a0ff1b25e",
+                "resourcePath": "views\\4504c760-e25b-4a51-826f-dbcdc52f04ac.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -575,6 +607,14 @@
             }
         },
         {
+            "Key": "60dd7191-54a2-4e64-be36-23029753bedf",
+            "Value": {
+                "id": "439bb930-a0df-439c-819c-22347eb18e36",
+                "resourcePath": "objects\\obj_UIMessage\\obj_UIMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "618e360f-0588-4319-b9f3-d78f5a35d8f0",
             "Value": {
                 "id": "8bf5b0dc-f3f9-4c88-b39b-fbd789020a2b",
@@ -639,11 +679,27 @@
             }
         },
         {
+            "Key": "767016cc-2661-40e6-b2e8-bcb0c40a8b32",
+            "Value": {
+                "id": "65e5142e-2524-4b4a-8622-1c6b785c37b4",
+                "resourcePath": "sprites\\spr_UIMessageOverlay\\spr_UIMessageOverlay.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7671654d-9053-4bb9-acc9-5acba716abb3",
             "Value": {
                 "id": "fdd48ab3-9a6b-4530-97ff-684391c913fb",
                 "resourcePath": "sprites\\spr_barn\\spr_barn.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "776e95a5-803a-4ca8-8354-c35f3196c87a",
+            "Value": {
+                "id": "5781b5c5-3fa8-4c90-af47-d63d162efa42",
+                "resourcePath": "views\\776e95a5-803a-4ca8-8354-c35f3196c87a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1220,6 +1276,14 @@
                 "id": "6b5d17d5-8345-4609-9337-be4765eabb90",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eabc79f5-d105-47ad-9fdc-e1f821b96a14",
+            "Value": {
+                "id": "997d20bf-bec9-44c8-97e7-982a2893a729",
+                "resourcePath": "views\\eabc79f5-d105-47ad-9fdc-e1f821b96a14.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

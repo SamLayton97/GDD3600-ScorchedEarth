@@ -3,8 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-// if player is in either fields or farm, disable this button (explosives not yet introduced)
-if room == rm_Fields
+// if room does not introduce or include inflammable structures, disable button
+if !obj_gameManager.allowExplosives
 {
 	disabled = true
 	sprite_index = myDisabledSprite

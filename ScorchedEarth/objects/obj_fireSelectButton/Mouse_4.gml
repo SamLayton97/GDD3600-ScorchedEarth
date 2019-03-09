@@ -9,3 +9,6 @@ if !disabled
 	// set left-press weapon to molotovs
 	obj_gameManager.currLeftPressWeapon = LeftPressWeapon.molotov
 }
+// otherwise, play denied sound
+else
+	audio_play_sound(sfx_denied, 4, false)

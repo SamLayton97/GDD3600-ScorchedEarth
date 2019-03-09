@@ -43,3 +43,6 @@ if !isCaptured and !obj_gameManager.playerRetreated
 		
 	}
 }
+// otherwise, play denied sound
+else
+	audio_play_sound(sfx_denied, 10, false)

@@ -62,6 +62,9 @@ if finalPercentage >= obj_gameManager.passThreshold
 	// spawn both retry and proceed buttons
 	instance_create_layer(x - 85, y + 225, "TopUILayer", obj_retryMissionButton)
 	instance_create_layer(x + 85, y + 225, "TopUILayer", obj_nextMissionButton)
+	
+	// play 'success' music
+	audio_play_sound(msc_successBackground, 3, false)
 }
 // otherwise (player failed to meet quota)
 else
@@ -71,4 +74,7 @@ else
 	
 	// spawn only the retry button
 	instance_create_layer(x, y + 225, "TopUILayer", obj_retryMissionButton)
+	
+	// play 'failure' music
+	audio_play_sound(msc_failureMusic, 3, false)
 }

@@ -14,6 +14,3 @@ enum LeftPressWeapon
 	molotov,
 	dynamite
 }
-
-// TEMP CODE: destroy initializer
-instance_destroy(id)

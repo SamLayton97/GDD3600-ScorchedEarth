@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "bf95f8c8-c433-486e-ae60-f782991daafd",
+            "Value": {
+                "id": "47630b97-28cc-41eb-8b3b-7e4e8af4c6af",
+                "resourcePath": "sounds\\msc_successBackground\\msc_successBackground.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c34b61c6-e3ba-441d-adb8-b55a3e2a2be7",
             "Value": {
                 "id": "bdea2ef4-b088-4f23-b396-8e989aea94ab",
@@ -812,6 +820,14 @@
                 "id": "299ced31-3ab7-4400-92c2-08918b3f62df",
                 "resourcePath": "views\\cb1aab28-eda1-440b-99dd-25369ffa2ff0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb9c3de7-b140-4b6d-abcc-e7462f9e1b52",
+            "Value": {
+                "id": "86f0ea51-2198-436e-a21d-fa5bbc74af0c",
+                "resourcePath": "sounds\\msc_failureMusic\\msc_failureMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2695e34c-eebc-44b0-9933-767039526d5c",
+            "Value": {
+                "id": "5f51c7c1-5ff6-4e62-8034-0c0a4e76b5c8",
+                "resourcePath": "sprites\\bgr_creditsScreen\\bgr_creditsScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27bca6e0-adac-438f-8668-1dd67e49d5c8",
             "Value": {
                 "id": "512d36a8-cbff-4344-be47-860bc50a7ec4",
@@ -738,7 +746,7 @@
             "Key": "8dbd728d-a91d-498c-b521-a187ccc48825",
             "Value": {
                 "id": "e94fafe6-bae4-47e0-8ebc-6b9f39428c79",
-                "resourcePath": "sprites\\spr_titleScreen\\spr_titleScreen.yy",
+                "resourcePath": "sprites\\bgr_titleScreen\\bgr_titleScreen.yy",
                 "resourceType": "GMSprite"
             }
         },

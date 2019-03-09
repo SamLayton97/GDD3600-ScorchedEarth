@@ -21,6 +21,7 @@ if fireStrength > 0
 	// if fire spread counter exceeds max
 	if fireSpreadCounter >= framesToSpreadFire
 	{
+		// spread fire to neighboring structures
 		for (var i = 0; i < instance_number(obj_destructibleStructure); i++)
 		{
 			var structure = instance_find(obj_destructibleStructure, i)
@@ -32,6 +33,10 @@ if fireStrength > 0
 				// set fire to it if structure isn't flammable or currently on fire
 				if structure.isFlammable and structure.fireStrength == 0
 					structure.fireStrength = fireStrength - 1
+					
+				// if not already playing, play "fire spread" noise
+				if !audio_is_playing(sfx_fireSpread)
+					audio_play_sound(sfx_fireSpread, 5, false)
 			}
 		}
 		

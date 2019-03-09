@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "d1ccda31-a966-4e0e-8051-debc2a46b88f",
+            "Value": {
+                "id": "70688b58-22b9-4cb1-9346-5eeca03e91f5",
+                "resourcePath": "sounds\\sfx_fireSpread\\sfx_fireSpread.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d2e9619f-db0a-4f00-b93a-0ce370c81af4",
             "Value": {
                 "id": "b3e43f53-3bc4-430d-9366-88c70ee5f3ab",

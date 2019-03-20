@@ -18,6 +18,19 @@ var unusedAPRatio = obj_gameManager.finalPlayerAP / obj_gameManager.startingAP
 var unusedTimeRatio = obj_gameManager.finalInvasionProgress / 100
 finalScore = round(finalPercentage * (1 + unusedAPRatio) * (1 + unusedTimeRatio) * 100)
 
+// copy over destroyed structures info from GM
+var destroyedStructureNames = ds_list_create()
+ds_list_copy(destroyedStructureNames, obj_gameManager.destroyedStructureNames)
+var destroyedStructureSprites = ds_list_create()
+ds_list_copy(destroyedStructureSprites, obj_gameManager.destroyedStructureSprites)
+var destroyedStructureValues = ds_list_create()
+ds_list_copy(destroyedStructureValues, obj_gameManager.destroyedStructureValues)
+
+// DEBUGGING: print name and value of first destroyed structure
+var firstDestroyedName = ds_list_find_value(destroyedStructureNames, 0)
+var firstDestroyedValue = ds_list_find_value(destroyedStructureValues, 0)
+show_debug_message(firstDestroyedName + " " + string(firstDestroyedValue))
+
 // copy over remaining structures from GM
 var remainingStructures = ds_list_create()
 ds_list_copy(remainingStructures, obj_gameManager.structures)

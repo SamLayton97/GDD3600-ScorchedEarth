@@ -3,12 +3,19 @@
 // if structure had any resource value
 if resourceValue > 0
 {
-	// add resources to total number of resources destroyed and remove self from list of valuable structures
 	with obj_gameManager
 	{
+		// add resources to total number of resources destroyed
 		resourcesDestroyed += other.resourceValue
+		
+		// remove self from list of valuable remaining structures
 		structureIndex = ds_list_find_index(structures, other)
 		ds_list_delete(structures, structureIndex)
+		
+		// add structure info to destroyed structure lists
+		ds_list_add(destroyedStructureNames, other.myName)
+		ds_list_add(destroyedStructureSprites, other.mySprite)
+		ds_list_add(destroyedStructureValues, other.resourceValue)
 	}
 }
 

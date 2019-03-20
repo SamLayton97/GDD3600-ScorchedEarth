@@ -17,5 +17,8 @@ totalStructures = 0
 finalPlayerAP = -1
 finalInvasionProgress = -1
 
-// create list of structures on board
+// create lists of remaining and destroyed structures
 structures = ds_list_create()
+destroyedStructureNames = ds_list_create()
+destroyedStructureSprites = ds_list_create()
+destroyedStructureValues = ds_list_create()

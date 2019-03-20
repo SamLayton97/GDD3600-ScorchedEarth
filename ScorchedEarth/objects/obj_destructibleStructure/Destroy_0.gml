@@ -14,7 +14,7 @@ if resourceValue > 0
 		
 		// add structure info to destroyed structure lists
 		ds_list_add(destroyedStructureNames, other.myName)
-		ds_list_add(destroyedStructureSprites, other.mySprite)
+		ds_list_add(destroyedStructureSprites, other.myHighlightedSprite)
 		ds_list_add(destroyedStructureValues, other.resourceValue)
 	}
 }

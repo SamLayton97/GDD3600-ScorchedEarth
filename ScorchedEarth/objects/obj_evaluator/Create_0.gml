@@ -26,22 +26,57 @@ ds_list_copy(destroyedStructureSprites, obj_gameManager.destroyedStructureSprite
 var destroyedStructureValues = ds_list_create()
 ds_list_copy(destroyedStructureValues, obj_gameManager.destroyedStructureValues)
 
-// DEBUGGING: print name and value of first destroyed structure
-var firstDestroyedName = ds_list_find_value(destroyedStructureNames, 0)
-var firstDestroyedValue = ds_list_find_value(destroyedStructureValues, 0)
-show_debug_message(firstDestroyedName + " " + string(firstDestroyedValue))
+// find 3 most valuable destroyed structures
+mostValuableDestroyedNames = ds_list_create()
+mostValuableDestroyedSprites = ds_list_create()
+for (var i = 0; i < 3; i++)
+{
+	// define variables to track most valuable structure
+	var highestValue = 0
+	var highestValueIndex = -1
+	
+	// search destroyed structures for highest resource value
+	for (var j = 0; j < ds_list_size(destroyedStructureValues); j++)
+	{
+		var currValue = ds_list_find_value(destroyedStructureValues, j)
+		
+		// if current structure has higher value than current highest, update highest
+		if currValue > highestValue
+		{
+			highestValue = currValue
+			highestValueIndex = j
+		}
+	}
+	
+	// if search found structure of highest value
+	if highestValue > 0 and highestValueIndex != -1
+	{
+		// retrieve name and sprite of best structure in search
+		var topName = ds_list_find_value(destroyedStructureNames, highestValueIndex)
+		var topSprite = ds_list_find_value(destroyedStructureSprites, highestValueIndex)
+		
+		// add structure's info to top 3 destroyed lists
+		ds_list_add(mostValuableDestroyedNames, topName)
+		ds_list_add(mostValuableDestroyedSprites, topSprite)
+		
+		// remove structure from destroyed structures lists
+		ds_list_delete(destroyedStructureNames, highestValueIndex)
+		ds_list_delete(destroyedStructureSprites, highestValueIndex)
+		ds_list_delete(destroyedStructureValues, highestValueIndex)
+	}
+}
 
 // copy over remaining structures from GM
 var remainingStructures = ds_list_create()
 ds_list_copy(remainingStructures, obj_gameManager.structures)
 
 // find 3 most valuable captured structures
-mostValuableStructures = ds_list_create()
+mostValuableCaptured = ds_list_create()
 for (var i = 0; i < 3; i++)
 {
 	// define variables to track most valuable structure
 	var highestValue = 0
-	var highestValueIndex = 0
+	var highestValueIndex = -1
 	
 	// search remaining structures for highest value
 	for (var j = 0; j < ds_list_size(remainingStructures); j++)
@@ -61,7 +96,7 @@ for (var i = 0; i < 3; i++)
 	{
 		// remove structure from remaining list and add to top 3
 		var valuableStructure = ds_list_find_value(remainingStructures, highestValueIndex)
-		ds_list_add(mostValuableStructures, valuableStructure)
+		ds_list_add(mostValuableCaptured, valuableStructure)
 		ds_list_delete(remainingStructures, highestValueIndex)
 	}
 }

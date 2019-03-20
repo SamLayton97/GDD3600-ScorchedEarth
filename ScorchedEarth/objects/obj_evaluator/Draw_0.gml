@@ -32,8 +32,8 @@ draw_text_color(quotaDrawX, quotaDrawY + 190, "Final Score: " + string(finalScor
 // draw top 3 captured structures
 draw_text_color(quotaDrawX, quotaDrawY + 230, "-Significant Enemy Finds-", 
 	c_white, c_white, c_white, c_white, 1)
-for (var i = 0; i < ds_list_size(mostValuableStructures); i++)
+for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
 {
-	var currStructure = ds_list_find_value(mostValuableStructures, i)
+	var currStructure = ds_list_find_value(mostValuableCaptured, i)
 	draw_sprite(currStructure.myCapturedSprite, 0, quotaDrawX - 100 + (i * 100), quotaDrawY + 290)
 }

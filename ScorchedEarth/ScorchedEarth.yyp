@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0b4ba380-3539-42db-92ec-29792607c401",
-            "Value": {
-                "id": "2e94a8d1-222c-44c0-b55b-fd0ce9982334",
-                "resourcePath": "sprites\\spr_evaluatorUIPanelFailure\\spr_evaluatorUIPanelFailure.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0e2beddb-5621-422d-80cd-23170a544e15",
             "Value": {
                 "id": "d55e3600-7b05-4fdc-8a33-4ff890af4d42",
@@ -116,6 +108,14 @@
                 "id": "e1c5be2d-5055-41af-8513-b93c91c7f95f",
                 "resourcePath": "fonts\\fnt_evaluatorLarge\\fnt_evaluatorLarge.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "167362f1-694b-4e22-949e-c832acf802db",
+            "Value": {
+                "id": "c606749b-a094-4389-991f-1af9f220ad50",
+                "resourcePath": "sprites\\spr_evaluatorUIPanelFailure\\spr_evaluatorUIPanelFailure.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

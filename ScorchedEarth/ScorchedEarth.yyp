@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "5d2f499e-1f7a-4ffa-bfd6-b9d27a474506",
+            "Value": {
+                "id": "7bdee7df-dad9-4364-940e-7d4bf9300ca4",
+                "resourcePath": "rooms\\rm_townOutskirts2\\rm_townOutskirts2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5d55ddf3-fd16-4ab6-b1a6-89aeb556aae4",
             "Value": {
                 "id": "0cfd6c6e-446f-4e34-a1d0-710186d65f88",

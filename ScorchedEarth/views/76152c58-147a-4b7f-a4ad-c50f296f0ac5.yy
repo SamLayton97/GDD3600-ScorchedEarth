@@ -7,10 +7,11 @@
         "c1bff361-5d49-4fe5-821c-3876396afe94",
         "effc8018-a2d1-45b5-ae65-d8f1b29594c8",
         "fa70e221-b1d5-4a39-b5b9-7c27cbab756e",
-        "a1929622-d7ba-46a6-953a-669b42e9f25a"
+        "a1929622-d7ba-46a6-953a-669b42e9f25a",
+        "5314d823-c287-4e0f-8c23-75b5511bf753"
     ],
     "filterType": "GMRoom",
-    "folderName": "Farm",
+    "folderName": "Farms",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

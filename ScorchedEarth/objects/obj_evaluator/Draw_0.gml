@@ -52,5 +52,7 @@ for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
 }
 
 // draw tip to improve player's performance in subsequent levels
-draw_text_color(quotaDrawX, quotaDrawY + 300, "Tip: " + performanceTip, 
-	c_white, c_white, c_white, c_white, 1)
+//draw_text_color(quotaDrawX, quotaDrawY + 300, "Tip: " + performanceTip, 
+//	c_white, c_white, c_white, c_white, 1)
+draw_text_ext_color(quotaDrawX, quotaDrawY + 310, "Tip: " + performanceTip,
+	tipStringHeight * 1.4, sprite_width * 0.8, c_white, c_white, c_white, c_white, 1)

@@ -227,8 +227,8 @@ else
 	// otherwise (player does not yet have access to explosives)
 	else
 	{
-		// if player has destroyed less than 30% of structures
-		if destructionPercentage < 30
+		// if player has destroyed more than 25% of structures
+		if destructionPercentage > 25
 		{
 			// if player has destroyed less than 30% of resources
 			if resourcePercentage < 30
@@ -243,7 +243,7 @@ else
 				performanceTip = "Fire will spread from flammable structure to flammable structure."
 			}
 		}
-		// otherwise (player's scorched earth had some breadth)
+		// otherwise (player's scorched earth lacked any breadth)
 		else
 		{
 			// if the player retreated from battle
@@ -261,3 +261,6 @@ else
 		}
 	}
 }
+
+// save height of performance tip string
+tipStringHeight = string_height(performanceTip)

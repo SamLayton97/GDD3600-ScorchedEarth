@@ -110,6 +110,10 @@ if finalPercentage >= obj_gameManager.passThreshold
 	// set sprite to reflect positive outcome
 	sprite_index = missionSuccessSprite
 	
+	// calculate player's performance-excellency ratio for current level and across chapter so far
+	var levelPerformanceExcellency = finalPercentage / obj_gameManager.excellenceThreshold
+	global.PlayerExcellenceRatio = (levelPerformanceExcellency + global.PlayerExcellenceRatio) / 2
+	
 	// spawn both retry and proceed buttons
 	instance_create_layer(x - 85, y + 240, "TopUILayer", obj_retryMissionButton)
 	if room != rm_townOutskirts

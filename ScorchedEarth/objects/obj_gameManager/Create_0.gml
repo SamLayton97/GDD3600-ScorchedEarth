@@ -33,3 +33,11 @@ else if ds_list_find_index(global.TownOutskirtsLevels, room) != -1
 	currChapter = global.TownOutskirtsLevels
 else if ds_list_find_index(global.DepotLevels, room) != -1
 	currChapter = global.DepotLevels
+
+// retrieve index of current level in chapter and chapter's length
+levelIndex = ds_list_find_index(currChapter, room)
+chapterLength = ds_list_size(currChapter)
+
+// if this is the first level in a chapter, reset player's performance-excellency ratio
+if levelIndex == 0
+	global.PlayerExcellenceRatio = 0

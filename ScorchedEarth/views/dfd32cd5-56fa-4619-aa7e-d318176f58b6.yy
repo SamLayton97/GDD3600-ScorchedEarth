@@ -7,7 +7,7 @@
         "1e57853b-004f-4100-b940-877065b8dcf7"
     ],
     "filterType": "GMObject",
-    "folderName": "Town Structures",
+    "folderName": "Town and Depot Structures",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

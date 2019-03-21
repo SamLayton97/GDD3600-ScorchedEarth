@@ -1615,6 +1615,14 @@
             }
         },
         {
+            "Key": "fa70e221-b1d5-4a39-b5b9-7c27cbab756e",
+            "Value": {
+                "id": "1a21f775-a8e7-4a85-9a4e-85da2290ec7e",
+                "resourcePath": "rooms\\rm_Farm3\\rm_Farm3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "faac6781-235a-4001-807b-d80f4db4957a",
             "Value": {
                 "id": "22ebdfd1-9f59-4fa4-9aee-a69503575bf6",

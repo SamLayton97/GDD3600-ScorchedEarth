@@ -1463,6 +1463,14 @@
             }
         },
         {
+            "Key": "effc8018-a2d1-45b5-ae65-d8f1b29594c8",
+            "Value": {
+                "id": "90982353-bf24-4c76-bb5d-a8a4615b6075",
+                "resourcePath": "rooms\\rm_Farm2\\rm_Farm2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f05699b5-b11d-464a-a070-afc664cb644f",
             "Value": {
                 "id": "eabe7b99-20c8-4fbf-8ed9-03388b5efef9",

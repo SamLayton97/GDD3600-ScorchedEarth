@@ -34,19 +34,19 @@ draw_text_color(quotaDrawX, quotaDrawY + 130, "Final Score: " + string(finalScor
 	
 // draw top 3 destroyed structures
 draw_set_font(myFont)
-draw_text_color(quotaDrawX - 140, quotaDrawY + 170, "-Top Destroyed-", 
+draw_text_color(quotaDrawX - 140, quotaDrawY + 180, "-Top Destroyed-", 
 	c_white, c_white, c_white, c_white, 1)
 for (var i = 0; i < ds_list_size(mostValuableDestroyedSprites); i++)
 {
 	var currStructureSprite = ds_list_find_value(mostValuableDestroyedSprites, i)
-	draw_sprite(currStructureSprite, 0, quotaDrawX - 224 + (i * 80), quotaDrawY + 220)
+	draw_sprite(currStructureSprite, 0, quotaDrawX - 224 + (i * 80), quotaDrawY + 230)
 }
 
 // draw top 3 captured structures
-draw_text_color(quotaDrawX + 140, quotaDrawY + 170, "-Top Captured-",
+draw_text_color(quotaDrawX + 140, quotaDrawY + 180, "-Top Captured-",
 	c_white, c_white, c_white, c_white, 1)
 for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
 {
 	var currStructure = ds_list_find_value(mostValuableCaptured, i)
-	draw_sprite(currStructure.myCapturedSprite, 0, quotaDrawX + 224 - (i * 80), quotaDrawY + 220)
+	draw_sprite(currStructure.myCapturedSprite, 0, quotaDrawX + 224 - (i * 80), quotaDrawY + 230)
 }

@@ -147,3 +147,57 @@ if finalPercentage >= obj_gameManager.excellenceThreshold
 	ds_list_add(performanceStars, filledStarSprite)
 else
 	ds_list_add(performanceStars, unfilledStarSprite)
+
+// Determine which tip to give players
+performanceTip = ""
+
+// if player met passing threshold
+if finalPercentage >= obj_gameManager.passThreshold
+{
+	// if player met above-average threshold
+	if finalPercentage >= obj_gameManager.aboveAverageThreshold
+	{
+		// if player met excellence threshold
+		if finalPercentage >= obj_gameManager.excellenceThreshold
+		{
+			// set tip for excellent player
+			performanceTip = "None. Glory to the Motherland!"
+		}
+		// otherwise (player is just above average)
+		else
+		{
+			// randomly choose 1 of 2 tips for above-average player
+			randomize()
+			var randAATip = random_range(0, 1)
+			if randAATip >= .5
+				performanceTip = "Fires can spread in all directions. Start them in the middle of groups of structures."
+			else
+				performanceTip = "The dryer the conditions, the farther fire will spread."
+		}
+	}
+	// otherwise (player is merely passing)
+	else
+	{
+		// if player has destroyed less than 50% of structures
+		if destructionPercentage < 50
+		{
+			// set tip to clarify spreading of fire
+			performanceTip = "Fire spreads, eventually destroying more than its initial target."
+		}
+		// otherwise (player destroyed more than 50% of structures)
+		else
+		{
+			// randomly choose 1 of 2 tips for passing player
+			randomize()
+			var randPTip = random_range(0, 1)
+			if randPTip >= .5
+				performanceTip = "Bigger buildings tend to house more resources than small homes."
+			else
+				performanceTip = "The enemy covets buildings storing food, machinery, and weapons."
+		}
+	}
+}
+// otherwise (player failed to meet pass threshold)
+else
+{
+}

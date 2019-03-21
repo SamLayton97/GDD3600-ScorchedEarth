@@ -134,3 +134,16 @@ else
 }
 
 // determine player's rank (x/3 stars) based off their performance in level
+performanceStars = ds_list_create()
+if finalPercentage >= obj_gameManager.passThreshold
+	ds_list_add(performanceStars, filledStarSprite)
+else
+	ds_list_add(performanceStars, unfilledStarSprite)
+if finalPercentage >= obj_gameManager.aboveAverageThreshold
+	ds_list_add(performanceStars, filledStarSprite)
+else
+	ds_list_add(performanceStars, unfilledStarSprite)
+if finalPercentage >= obj_gameManager.excellenceThreshold
+	ds_list_add(performanceStars, filledStarSprite)
+else
+	ds_list_add(performanceStars, unfilledStarSprite)

@@ -118,8 +118,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "spr_startFilled",
-            "varName": "filledStartSprite",
+            "value": "spr_starFilled",
+            "varName": "filledStarSprite",
             "varType": 5
         },
         {
@@ -133,7 +133,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "spr_starUnfilled",
-            "varName": "unfilledStartSprite",
+            "varName": "unfilledStarSprite",
             "varType": 5
         }
     ],

@@ -107,6 +107,34 @@
             "value": "spr_evaluatorUIPanelFailure",
             "varName": "missionFailedSprite",
             "varType": 5
+        },
+        {
+            "id": "6f1ccbfc-face-48f0-9281-658823fcd010",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_startFilled",
+            "varName": "filledStartSprite",
+            "varType": 5
+        },
+        {
+            "id": "87e3677a-99c6-4638-8969-cb522a5328ab",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_starUnfilled",
+            "varName": "unfilledStartSprite",
+            "varType": 5
         }
     ],
     "solid": false,

@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d",
             "propertyId": "8de42e89-f7ce-4f6f-899e-b6239e7fa787",
-            "value": "Arms Warehouse"
+            "value": "Warehouse"
         },
         {
             "id": "8633172e-f5c9-4088-82b0-4277aaa355e6",

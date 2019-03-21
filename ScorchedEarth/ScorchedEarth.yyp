@@ -1287,6 +1287,14 @@
             }
         },
         {
+            "Key": "b7cdec1c-ddfa-4a19-9acf-05d5d9e27265",
+            "Value": {
+                "id": "96355fa3-ecd6-4fab-8f7e-a3bde5d11721",
+                "resourcePath": "rooms\\rm_armsDepot\\rm_armsDepot.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b90c3764-df35-4aee-bb58-155b61aa7962",
             "Value": {
                 "id": "84111e66-e57d-4fa7-ad12-80ac46a17a16",

@@ -10,7 +10,7 @@ draw_set_halign(fa_center)
 
 // calculate initial coordinates to draw performance info
 var quotaDrawX = x
-var quotaDrawY = y - (sprite_height / 2) + 150
+var quotaDrawY = y - (sprite_height / 2) + 140
 
 // rank player's performance w/ number of stars
 for (var i = 0; i < 3; i++)
@@ -19,24 +19,18 @@ for (var i = 0; i < 3; i++)
 	draw_sprite(currStar, 0, quotaDrawX - 96 + (96 * i), quotaDrawY)
 }
 
-//// draw resources destroyed, structures destroyed, and scorched earth fullfillment percentage
-//draw_text_color(quotaDrawX, quotaDrawY, 
-//	"Resources Destroyed: " + string(resourcesDestroyed) + "/" + string(totalResources),
-//	c_white, c_white, c_white, c_white, 1)
-//draw_text_color(quotaDrawX, quotaDrawY + 30,
-//	"Structures Destroyed: " + string(structuresDestroyed) + "/" + string(totalStructures),
-//	c_white, c_white, c_white, c_white, 1)
-//draw_text_color(quotaDrawX - 25, quotaDrawY + 90, "Scorched Earth Quota ...", 
-//	c_white, c_white, c_white, c_white, 1)
-//draw_text_transformed_color(quotaDrawX, quotaDrawY + 120, string(finalPercentage) + "%", 1.1, 1.1, 0,
-//	c_white, c_white, c_white, c_white, 1)
-//draw_text_color(quotaDrawX + 60, quotaDrawY + 150, "... fulfilled.",
-//	c_white, c_white, c_white, c_white, 1)
+// draw number of resources and structures destroyed
+draw_text_color(quotaDrawX, quotaDrawY + 60, 
+	"Resources: " + string(resourcesDestroyed) + "/" + string(totalResources) + 
+	" Structures: " + string(structuresDestroyed) + "/" + string(totalStructures),
+	c_white, c_white, c_white, c_white, 1)
 	
-//// draw final score
-//draw_set_font(myLargeFont)
-//draw_text_color(quotaDrawX, quotaDrawY + 190, "Final Score: " + string(finalScore),
-//	c_white, c_white, c_white, c_white, 1)
+// draw final percentage and score
+draw_set_font(myLargeFont)
+draw_text_color(quotaDrawX, quotaDrawY + 100, "Total Destruction: " + string(finalPercentage) + "%",
+	c_white, c_white, c_white, c_white, 1)
+draw_text_color(quotaDrawX, quotaDrawY + 130, "Final Score: " + string(finalScore),
+	c_white, c_white, c_white, c_white, 1)
 	
 //// draw top 3 captured structures
 //draw_text_color(quotaDrawX, quotaDrawY + 230, "-Significant Enemy Finds-", 

@@ -14,7 +14,7 @@
         "1252619d-3294-462c-b233-7329b3e45124"
     ],
     "filterType": "GMSprite",
-    "folderName": "Farm Structures",
+    "folderName": "Fields and Farm Structures",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

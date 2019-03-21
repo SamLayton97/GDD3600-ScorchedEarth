@@ -200,4 +200,64 @@ if finalPercentage >= obj_gameManager.passThreshold
 // otherwise (player failed to meet pass threshold)
 else
 {
+	// if player has access to explosives
+	if obj_gameManager.allowExplosives
+	{
+		// determine if any of top 3 captured buildings were inflammable
+		var inflammableAmongTop3 = false
+		for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
+		{
+			var currStructure = ds_list_find_value(mostValuableCaptured, i)
+			if !currStructure.isFlammable
+				inflammableAmongTop3 = true
+		}
+		
+		// if inflammable building was among top 3 structures
+		if inflammableAmongTop3
+		{
+			// set tip to remind players how to destroy inflammable buildings
+			performanceTip = "Concrete buildings, like bunkers, are inflammable and require explosives to destroy."
+		}
+		// otherwise (all top 3 captured were flammable)
+		else
+		{
+			performanceTip = "Explosives won't start raging fires."
+		}
+	}
+	// otherwise (player does not yet have access to explosives)
+	else
+	{
+		// if player has destroyed less than 30% of structures
+		if destructionPercentage < 30
+		{
+			// if player has destroyed less than 30% of resources
+			if resourcePercentage < 30
+			{
+				// set tip to remind players to prioritize man-made things
+				performanceTip = "Man-made structures hold resources for the enemy to co-opt while plants do not."
+			}
+			// otherwise (player's scorched earth had some depth)
+			else
+			{
+				// set tip to remind players that fire spreads
+				performanceTip = "Fire will spread from flammable structure to flammable structure."
+			}
+		}
+		// otherwise (player's scorched earth had some breadth)
+		else
+		{
+			// if the player retreated from battle
+			if obj_gameManager.finalInvasionProgress < 100
+			{
+				// set tip to remind players that they destroy anything more after retreating
+				performanceTip = "After retreating, you cannot throw more molotovs or plant more explosives."
+			}
+			// otherwise (player stuck it to the end)
+			else
+			{
+				// set tip to remind players of enemy's quick advance
+				performanceTip = "The enemy approaches quickly. Act on your instincts and destroy what you feel is most important."
+			}
+		}
+	}
 }

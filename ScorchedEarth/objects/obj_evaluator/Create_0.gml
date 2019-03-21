@@ -148,7 +148,7 @@ if finalPercentage >= obj_gameManager.excellenceThreshold
 else
 	ds_list_add(performanceStars, unfilledStarSprite)
 
-// Determine which tip to give players
+// Determine which tip to give players through a decision tree
 performanceTip = ""
 
 // if player met passing threshold

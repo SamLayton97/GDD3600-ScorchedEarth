@@ -23,8 +23,13 @@ ds_list_add(global.FieldsLevels, rm_Fields3)
 ds_list_add(global.FieldsLevels, rm_Fields4)
 ds_list_add(global.FieldsLevels, rm_Fields5)
 
-// TODO: load "Farm" levels into chapter list
+// load "Farm" levels into chapter list
 global.FarmLevels = ds_list_create()
+ds_list_add(global.FarmLevels, rm_Farm)
+ds_list_add(global.FarmLevels, rm_Farm2)
+ds_list_add(global.FarmLevels, rm_Farm3)
+ds_list_add(global.FarmLevels, rm_Farm4)
+ds_list_add(global.FarmLevels, rm_Farm5)
 
 // TODO: load "Outskirts" levels into chapter list
 global.TownOutskirtsLevel = ds_list_create()

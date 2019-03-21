@@ -15,6 +15,9 @@ enum LeftPressWeapon
 	dynamite
 }
 
+// initialize player-excellence ratio (used to skip practice levels)
+global.PlayerExcellenceRatio = 0
+
 // load 'Fields' levels into chapter list
 global.FieldsLevels = ds_list_create()
 //ds_list_clear(global.FieldsLevels)
@@ -46,5 +49,3 @@ ds_list_add(global.TownOutskirtsLevels, rm_townOutskirts5)
 global.DepotLevels = ds_list_create()
 //ds_list_clear(global.DepotLevels)
 ds_list_add(global.DepotLevels, rm_armsDepot)
-
-show_debug_message(string(ds_list_size(global.FieldsLevels)))

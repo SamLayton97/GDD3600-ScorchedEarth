@@ -11,7 +11,8 @@
         "aed0277b-8ded-4cfc-a6d6-5f77e7fc3570",
         "97cab1cf-d213-4834-aeec-df65d2ca856f",
         "5a29c8bf-d913-4c62-823c-97cb4450d03c",
-        "f7362cfc-98db-4dec-9a5b-ed91be2a193a"
+        "f7362cfc-98db-4dec-9a5b-ed91be2a193a",
+        "4668b6cf-7b49-4905-a56f-057711d06741"
     ],
     "filterType": "GMObject",
     "folderName": "Farmland Structures",

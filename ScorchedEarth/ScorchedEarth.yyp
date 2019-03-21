@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1252619d-3294-462c-b233-7329b3e45124",
+            "Value": {
+                "id": "88255bb4-b53b-4346-a45f-ebdf7228c471",
+                "resourcePath": "views\\1252619d-3294-462c-b233-7329b3e45124.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "13040a1e-5c90-4fe2-8ec8-fe3e47ced72b",
             "Value": {
                 "id": "44af80fd-bef7-4f81-bfe6-565a740520e4",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "2e678671-b4ef-4854-b3bd-babe94fb6c60",
+            "Value": {
+                "id": "896026f1-de00-4e83-8f25-cfe060349e5b",
+                "resourcePath": "sprites\\spr_windmillHighlighted\\spr_windmillHighlighted.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fe96a7c-e194-462f-9033-2353d31810a7",
             "Value": {
                 "id": "e9621d39-e17a-4789-9513-a739dac1bdda",
@@ -411,6 +427,14 @@
             "Value": {
                 "id": "cd39e19c-14a6-4ed2-924f-0003481741d0",
                 "resourcePath": "objects\\obj_wheat\\obj_wheat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4668b6cf-7b49-4905-a56f-057711d06741",
+            "Value": {
+                "id": "cf61a44c-40b0-47d8-9aef-4f2fbe4562f2",
+                "resourcePath": "objects\\obj_woodenWindmill\\obj_woodenWindmill.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -951,6 +975,14 @@
             }
         },
         {
+            "Key": "a1b39960-c588-4b77-85fd-79569b666709",
+            "Value": {
+                "id": "584cbe93-a159-4470-9ac4-e5b0d85f42e4",
+                "resourcePath": "sprites\\spr_windmill\\spr_windmill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a210a0a9-2582-4e33-a75c-c36f90b826a5",
             "Value": {
                 "id": "261274e5-cb8b-443e-bdd6-3b7ee4166ac3",
@@ -1212,6 +1244,14 @@
                 "id": "fe251ef6-bbad-4e97-a9fa-24c2bef0dab4",
                 "resourcePath": "objects\\obj_returnToMenuButton\\obj_returnToMenuButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c7d23ac3-f422-4ec2-a2ed-499b23f220c7",
+            "Value": {
+                "id": "9911a8b2-5c41-44e5-9f5f-ac9948f40a6d",
+                "resourcePath": "sprites\\spr_windmillCaptured\\spr_windmillCaptured.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -32,11 +32,21 @@ draw_text_color(quotaDrawX, quotaDrawY + 100, "Total Destruction: " + string(fin
 draw_text_color(quotaDrawX, quotaDrawY + 130, "Final Score: " + string(finalScore),
 	c_white, c_white, c_white, c_white, 1)
 	
-//// draw top 3 captured structures
-//draw_text_color(quotaDrawX, quotaDrawY + 230, "-Significant Enemy Finds-", 
-//	c_white, c_white, c_white, c_white, 1)
-//for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
-//{
-//	var currStructure = ds_list_find_value(mostValuableCaptured, i)
-//	draw_sprite(currStructure.myCapturedSprite, 0, quotaDrawX - 100 + (i * 100), quotaDrawY + 290)
-//}
+// draw top 3 destroyed structures
+draw_set_font(myFont)
+draw_text_color(quotaDrawX - 140, quotaDrawY + 170, "-Top Destroyed-", 
+	c_white, c_white, c_white, c_white, 1)
+for (var i = 0; i < ds_list_size(mostValuableDestroyedSprites); i++)
+{
+	var currStructureSprite = ds_list_find_value(mostValuableDestroyedSprites, i)
+	draw_sprite(currStructureSprite, 0, quotaDrawX - 224 + (i * 80), quotaDrawY + 220)
+}
+
+// draw top 3 captured structures
+draw_text_color(quotaDrawX + 140, quotaDrawY + 170, "-Top Captured-",
+	c_white, c_white, c_white, c_white, 1)
+for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
+{
+	var currStructure = ds_list_find_value(mostValuableCaptured, i)
+	draw_sprite(currStructure.myCapturedSprite, 0, quotaDrawX + 224 - (i * 80), quotaDrawY + 220)
+}

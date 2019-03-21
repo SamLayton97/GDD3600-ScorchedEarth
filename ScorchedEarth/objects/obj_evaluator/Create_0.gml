@@ -111,11 +111,11 @@ if finalPercentage >= obj_gameManager.passThreshold
 	sprite_index = missionSuccessSprite
 	
 	// spawn both retry and proceed buttons
-	instance_create_layer(x - 85, y + 225, "TopUILayer", obj_retryMissionButton)
+	instance_create_layer(x - 85, y + 240, "TopUILayer", obj_retryMissionButton)
 	if room != rm_townOutskirts
-		instance_create_layer(x + 85, y + 225, "TopUILayer", obj_nextMissionButton)
+		instance_create_layer(x + 85, y + 240, "TopUILayer", obj_nextMissionButton)
 	else
-		instance_create_layer(x + 85, y + 225, "TopUILayer", obj_returnToMenuButton)
+		instance_create_layer(x + 85, y + 240, "TopUILayer", obj_returnToMenuButton)
 	
 	// play 'success' music
 	audio_play_sound(msc_successBackground, 3, false)
@@ -127,7 +127,7 @@ else
 	sprite_index = missionFailedSprite
 	
 	// spawn only the retry button
-	instance_create_layer(x, y + 225, "TopUILayer", obj_retryMissionButton)
+	instance_create_layer(x, y + 240, "TopUILayer", obj_retryMissionButton)
 	
 	// play 'failure' music
 	audio_play_sound(msc_failureMusic, 3, false)

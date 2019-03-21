@@ -132,3 +132,5 @@ else
 	// play 'failure' music
 	audio_play_sound(msc_failureMusic, 3, false)
 }
+
+// determine player's rank (x/3 stars) based off their performance in level

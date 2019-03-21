@@ -3,6 +3,12 @@
 // draw background panel
 draw_self()
 
+// rank player's performance w/ number of stars
+for (var i = 0; i < 3; i++)
+{
+	
+}
+
 // set font and text alignment for quota information
 //draw_set_font(myFont)
 //draw_set_valign(fa_middle)

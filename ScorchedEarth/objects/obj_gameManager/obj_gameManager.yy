@@ -143,6 +143,34 @@
             "value": "70",
             "varName": "passThreshold",
             "varType": 0
+        },
+        {
+            "id": "4797daa5-a9c4-4ecb-8a03-90abb624b2f3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "85",
+            "varName": "aboveAverageThreshold",
+            "varType": 0
+        },
+        {
+            "id": "a3b9d742-d85c-4f79-8f41-197ebc09f53d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "excellenceThreshold",
+            "varType": 0
         }
     ],
     "solid": false,

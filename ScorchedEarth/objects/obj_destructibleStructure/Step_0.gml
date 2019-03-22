@@ -26,9 +26,10 @@ if fireStrength > 0
 		{
 			var structure = instance_find(obj_destructibleStructure, i)
 			
-			// if destructible structure isn't this structure and is within certain range
+			// if destructible structure isn't this structure, is within certain range, and isn't captured
 			if (structure != id and 
-			distance_to_point(structure.x, structure.y) <= obj_gameManager.fireSpreadRadius)
+			distance_to_point(structure.x, structure.y) <= obj_gameManager.fireSpreadRadius
+			and !structure.isCaptured)
 			{
 				// set fire to it if structure isn't flammable or currently on fire
 				if structure.isFlammable and structure.fireStrength == 0

@@ -1159,6 +1159,14 @@
             }
         },
         {
+            "Key": "9fbabda3-d74a-43e5-9a73-40fd6b0aa804",
+            "Value": {
+                "id": "e4e755e0-9af0-4d46-8a6b-e5aaf232fec5",
+                "resourcePath": "sounds\\sfx_fields2Dialogue\\sfx_fields2Dialogue.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a1929622-d7ba-46a6-953a-669b42e9f25a",
             "Value": {
                 "id": "e6556166-49f2-474d-af6b-6c55ac9cbbab",

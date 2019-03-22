@@ -1359,6 +1359,14 @@
             }
         },
         {
+            "Key": "bff5f1f7-70b5-4459-b7a0-9c50cc34f2d7",
+            "Value": {
+                "id": "3537873e-0177-4d10-8cb7-efefa05e3394",
+                "resourcePath": "objects\\obj_nextChapterButton\\obj_nextChapterButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c1bff361-5d49-4fe5-821c-3876396afe94",
             "Value": {
                 "id": "b6b5b46b-774b-4927-b08f-ca2dd087c374",

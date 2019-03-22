@@ -107,6 +107,10 @@ audio_play_sound(sfx_messageReceived, 10, false)
 // if player meets 'scorched earth' quota
 if finalPercentage >= obj_gameManager.passThreshold
 {
+	// retrieve current level index and chapter length from GM
+	var levelIndex = obj_gameManager.levelIndex
+	var chapterLength = obj_gameManager.chapterLength
+	
 	// set sprite to reflect positive outcome
 	sprite_index = missionSuccessSprite
 	
@@ -114,12 +118,31 @@ if finalPercentage >= obj_gameManager.passThreshold
 	var levelPerformanceExcellency = finalPercentage / obj_gameManager.excellenceThreshold
 	global.PlayerExcellenceRatio = (levelPerformanceExcellency + global.PlayerExcellenceRatio) / 2
 	
-	// spawn both retry and proceed buttons
-	instance_create_layer(x - 85, y + 240, "TopUILayer", obj_retryMissionButton)
-	if room != rm_townOutskirts
-		instance_create_layer(x + 85, y + 240, "TopUILayer", obj_nextMissionButton)
+	// if player beat last level in chapter
+	if levelIndex + 1 == chapterLength
+	{
+		// spawn both retry and next chapter buttons
+		instance_create_layer(x - 85, y + 240, "TopUILayer", obj_retryMissionButton)
+		if room != rm_armsDepot
+			instance_create_layer(x + 85, y + 240, "TopUILayer", obj_nextChapterButton)
+		else
+			instance_create_layer(x + 85, y + 240, "TopUILayer", obj_returnToMenuButton)
+	}
+	// if player is now past 3rd level in chapter and has necessary excellence ratio
+	else if levelIndex >= 2 and global.PlayerExcellenceRatio >= ((levelIndex - 1) / 10)
+	{
+		// spawn retry, proceed, and next chapter buttons
+		instance_create_layer(x - 170, y + 240, "TopUILayer", obj_retryMissionButton)
+		instance_create_layer(x, y + 240, "TopUILayer", obj_nextMissionButton)
+		instance_create_layer(x + 170, y + 240, "TopUILayer", obj_nextChapterButton)
+	}
+	// otherwise (player beat level but hasn't proven mastery of technique)
 	else
-		instance_create_layer(x + 85, y + 240, "TopUILayer", obj_returnToMenuButton)
+	{
+		// spawn both retry and proceed buttons
+		instance_create_layer(x - 85, y + 240, "TopUILayer", obj_retryMissionButton)
+		instance_create_layer(x + 85, y + 240, "TopUILayer", obj_nextMissionButton)
+	}
 	
 	// play 'success' music
 	audio_play_sound(msc_successBackground, 3, false)

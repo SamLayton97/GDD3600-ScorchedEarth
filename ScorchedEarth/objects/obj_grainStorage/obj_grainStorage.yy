@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "4d0dc39e-5a7f-46a0-b21b-69e04d30f91d",
             "propertyId": "8de42e89-f7ce-4f6f-899e-b6239e7fa787",
-            "value": "Grain Storage"
+            "value": "Grain Silo"
         },
         {
             "id": "72f394ee-36fc-46ed-9a24-f8103b57b5af",

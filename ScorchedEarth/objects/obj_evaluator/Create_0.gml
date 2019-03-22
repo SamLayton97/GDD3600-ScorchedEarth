@@ -116,7 +116,12 @@ if finalPercentage >= obj_gameManager.passThreshold
 	
 	// calculate player's performance-excellency ratio for current level and across chapter so far
 	var levelPerformanceExcellency = finalPercentage / obj_gameManager.excellenceThreshold
-	global.PlayerExcellenceRatio = (levelPerformanceExcellency + global.PlayerExcellenceRatio) / 2
+	if global.PlayerExcellenceRatio == 0
+		global.PlayerExcellenceRatio = levelPerformanceExcellency
+	else
+		global.PlayerExcellenceRatio = (levelPerformanceExcellency + global.PlayerExcellenceRatio) / 2
+	
+	show_debug_message(string(global.PlayerExcellenceRatio))
 	
 	// if player beat last level in chapter
 	if levelIndex + 1 == chapterLength
@@ -129,7 +134,7 @@ if finalPercentage >= obj_gameManager.passThreshold
 			instance_create_layer(x + 85, y + 240, "TopUILayer", obj_returnToMenuButton)
 	}
 	// if player is now past 3rd level in chapter and has necessary excellence ratio
-	else if levelIndex >= 2 and global.PlayerExcellenceRatio >= ((levelIndex - 1) / 10)
+	else if levelIndex >= 2 and global.PlayerExcellenceRatio >= 1 - ((levelIndex - 1.2) / 10)
 	{
 		// spawn retry, proceed, and next chapter buttons
 		instance_create_layer(x - 170, y + 240, "TopUILayer", obj_retryMissionButton)

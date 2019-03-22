@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "2fc22984-19c9-4467-93f2-3a5a9cc00436",
+            "Value": {
+                "id": "44620b0a-3ab5-448c-8e13-1641d5f63e67",
+                "resourcePath": "sprites\\spr_fields2TutorialMessage\\spr_fields2TutorialMessage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fe96a7c-e194-462f-9033-2353d31810a7",
             "Value": {
                 "id": "e9621d39-e17a-4789-9513-a739dac1bdda",
@@ -572,6 +580,14 @@
                 "id": "02e200ee-72bc-4cf4-9911-4605979a2e8a",
                 "resourcePath": "views\\4b78e47f-b65f-41fe-8e29-615c65f8f8a0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4b79757d-dd1d-4afd-9c28-4ce7a726c47a",
+            "Value": {
+                "id": "f23257a0-1056-442b-a568-c65d571ca5f7",
+                "resourcePath": "sprites\\spr_town2TutorialMessage\\spr_town2TutorialMessage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -951,11 +967,27 @@
             }
         },
         {
+            "Key": "7c46b7c2-02eb-41eb-860f-dcfd4a5c0aa9",
+            "Value": {
+                "id": "880c322d-2107-4396-830a-eeb37bfd6236",
+                "resourcePath": "sounds\\sfx_town2Dialogue\\sfx_town2Dialogue.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7c50f543-4933-4787-9607-7e801f463a7c",
             "Value": {
                 "id": "dc33fa96-a7cf-4af7-a08d-6c8ed8fa1420",
                 "resourcePath": "fonts\\fnt_quota\\fnt_quota.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "7c64353c-6bd8-47c4-84d8-0c82c7c8b6e2",
+            "Value": {
+                "id": "3630ba3d-2406-45dd-b6fe-b4e4c2ee0553",
+                "resourcePath": "sprites\\spr_farm2TutorialMessage\\spr_farm2TutorialMessage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1084,6 +1116,14 @@
                 "id": "d9c2a839-3613-4ecc-9d01-8b6c44424d6d",
                 "resourcePath": "views\\90c607ed-30fb-4b5a-ab7d-b55584e2d289.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "94005d69-fd0e-4d46-a2f3-aef5b4205e82",
+            "Value": {
+                "id": "bb23dc94-12b5-47bf-887d-c35e1ddbacc1",
+                "resourcePath": "sounds\\sfx_town3Dialogue\\sfx_town3Dialogue.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1499,6 +1539,14 @@
             "Value": {
                 "id": "ee7d528e-7e0f-4021-b041-208968d3228f",
                 "resourcePath": "sprites\\spr_cottageCaptured\\spr_cottageCaptured.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6aaaf4c-da58-40aa-b03a-2828ab4bd3b7",
+            "Value": {
+                "id": "6309c5e4-7b95-4971-8875-edefd7b1480e",
+                "resourcePath": "sprites\\spr_town3TutorialMessage\\spr_town3TutorialMessage.yy",
                 "resourceType": "GMSprite"
             }
         },

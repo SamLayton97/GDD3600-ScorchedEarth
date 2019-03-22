@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "634d3487-ec46-4e71-b286-8adc47bd9f03",
+            "Value": {
+                "id": "3e4e27f7-9813-4884-b1ab-6d29e4d10add",
+                "resourcePath": "sounds\\msc_finalLevelBackground\\msc_finalLevelBackground.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "672b79ef-eb1a-4bc4-bf58-b7da1a42c933",
             "Value": {
                 "id": "32deb14f-aabb-488e-9890-e04e8a05e37c",

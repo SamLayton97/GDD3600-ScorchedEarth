@@ -41,8 +41,9 @@ if fireStrength > 0
 			}
 		}
 		
-		// destroy self (structure has burned down)
-		instance_destroy(id)
+		// if not already captured, destroy self (structure has burned down)
+		if !isCaptured
+			instance_destroy(id)
 	}
 	
 	// increment fire spread counter

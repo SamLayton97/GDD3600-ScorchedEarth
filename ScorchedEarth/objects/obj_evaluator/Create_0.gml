@@ -96,7 +96,7 @@ for (var i = 0; i < 3; i++)
 	{
 		// remove structure from remaining list and add to top 3
 		var valuableStructure = ds_list_find_value(remainingStructures, highestValueIndex)
-		ds_list_add(mostValuableCaptured, valuableStructure.myCapturedSprite)
+		ds_list_add(mostValuableCaptured, valuableStructure)
 		ds_list_delete(remainingStructures, highestValueIndex)
 	}
 }

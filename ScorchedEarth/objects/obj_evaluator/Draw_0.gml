@@ -48,7 +48,7 @@ draw_text_color(quotaDrawX + 140, quotaDrawY + 180, "-Top Captured-",
 for (var i = 0; i < ds_list_size(mostValuableCaptured); i++)
 {
 	var currStructure = ds_list_find_value(mostValuableCaptured, i)
-	draw_sprite(currStructure, 0, quotaDrawX + 224 - (i * 80), quotaDrawY + 230)
+	draw_sprite(currStructure.myCapturedSprite, 0, quotaDrawX + 224 - (i * 80), quotaDrawY + 230)
 }
 
 // draw tip to improve player's performance in subsequent levels

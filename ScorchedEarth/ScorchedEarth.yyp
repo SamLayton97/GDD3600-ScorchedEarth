@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "601f7f0c-c060-46d8-b352-d4ebe557d155",
+            "Value": {
+                "id": "88176399-ecbb-448e-80f6-c34d2adef239",
+                "resourcePath": "objects\\obj_farm2Message\\obj_farm2Message.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60471be6-bda9-4464-bf4b-3032eb87589d",
             "Value": {
                 "id": "5d07a0e1-a2d2-4fd5-b664-a076f7a3643e",
@@ -932,6 +940,14 @@
                 "id": "5781b5c5-3fa8-4c90-af47-d63d162efa42",
                 "resourcePath": "views\\776e95a5-803a-4ca8-8354-c35f3196c87a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7863b0be-d3cf-4e3b-ad84-980e8058f3e8",
+            "Value": {
+                "id": "20296825-1a42-4dcb-b384-d42809b543fc",
+                "resourcePath": "objects\\obj_town3Message\\obj_town3Message.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1847,6 +1863,14 @@
             }
         },
         {
+            "Key": "e6aa124f-6a1f-47f4-a7f0-c43749af9e62",
+            "Value": {
+                "id": "03b82c02-9210-40c1-bd78-d3b5a77b6f57",
+                "resourcePath": "objects\\obj_fields2Message\\obj_fields2Message.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e85f6658-a493-46bc-bb5f-c2e418638b8d",
             "Value": {
                 "id": "70f2f6dc-6953-4bef-882a-6019f68e066d",
@@ -1868,6 +1892,14 @@
                 "id": "997d20bf-bec9-44c8-97e7-982a2893a729",
                 "resourcePath": "views\\eabc79f5-d105-47ad-9fdc-e1f821b96a14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec10d4bf-0567-4968-acee-88d62a6ace4a",
+            "Value": {
+                "id": "2b8c4c0f-28d6-47b6-b636-74e7a84bbbdc",
+                "resourcePath": "objects\\obj_town2Message\\obj_town2Message.yy",
+                "resourceType": "GMObject"
             }
         },
         {

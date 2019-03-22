@@ -120,9 +120,7 @@ if finalPercentage >= obj_gameManager.passThreshold
 		global.PlayerExcellenceRatio = levelPerformanceExcellency
 	else
 		global.PlayerExcellenceRatio = (levelPerformanceExcellency + global.PlayerExcellenceRatio) / 2
-	
-	show_debug_message(string(global.PlayerExcellenceRatio))
-	
+
 	// if player beat last level in chapter
 	if levelIndex + 1 == chapterLength
 	{
